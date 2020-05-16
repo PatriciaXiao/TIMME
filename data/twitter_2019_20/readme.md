@@ -17,3 +17,13 @@ filtered from dataset ../twitter_2019/ according to:
     - 1684023
     - 1794111
     - 1571937
+
+## About **features.npz**
+
+That file was too big to be uploaded onto github, so I did:
+```shell
+zip features.zip --out features.npz.zip -s 50m
+```
+where features.zip is a folder containing **features.npz**.
+
+When unzipping it, please unzip **features.npz.zip**, and then you'll see a folder containing **features.npz**.
