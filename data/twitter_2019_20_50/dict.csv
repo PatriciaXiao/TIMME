@@ -1,0 +1,586 @@
+name	twitter_id	twitter_name	party
+Linda E. McMahon	819992522109894658	SBALinda	R
+Daniel Coats	212262370	SenDanCoats	R
+Mick Mulvaney	888031054141022209	MickMulvaneyOMB	R
+Sonny Perdue	842072478834909184	SecretarySonny	R
+Wilbur L. Ross, Jr.	836305915452272641	SecretaryRoss	R
+Elisabeth Prince DeVos	11522502	etsy	R
+James Richard Perry	18906561	GovernorPerry	R
+Alex Azar	956283913835614208	SecAzar	R
+Kirstjen Nielsen	935148134505828353	SecNielsen	R
+Benjamin S. Carson, Sr.	828613457020870657	SecretaryCarson	R
+Alexander Acosta	819980276570976256	SecretaryAcosta	R
+Mike Pompeo	988573326376427520	SecPompeo	R
+Elaine L. Chao	826065858548133888	SecElaineChao	R
+Steven T. Mnuchin	799764016885329921	stevenmnuchin1	R
+Robert Wilkie	1024390184090181633	SecWilkie	R
+Robert Lighthizer	862405301693296640	USTradeRep	R
+Michael R. Pence	818910970567344128	VP	R
+Joseph R. Biden	939091	JoeBiden	D
+John Kerry	15007149	JohnKerry	D
+Jack Lew	1076899938	SecJackLew	D
+Ashton Carter	129928278	AshtonCarter1	D
+Loretta E. Lynch	3290070855	AGLynch	D
+Sally Jewell	821446682860732416	sallyjewell	D
+Penny Pritzker	821763194372943872	PennyPritzker	D
+Thomas E. Perez	4797361833	TomPerez	D
+Sylvia Mathews Burwell	788075094711107584	SylviaBurwell	D
+Julián Castro	19682187	JulianCastro	D
+Anthony Foxx	17856665	anthonyfoxx	D
+Ernest Moniz	821769014691168256	ErnestMoniz	D
+John King	30043495	JohnKingCNN	D
+Robert McDonald	1031591	mcdonald	D
+Jeh Johnson	423966076	JehJohnson	D
+Denis McDonough	820830366713991168	DenisMcDonough	D
+Gina McCarthy	1530850933	GinaEPA	D
+Michael Froman	2328937074	MikeFroman	D
+Samantha Power	1615463502	AmbPower44	D
+Jason Furman	279036722	jasonfurman	D
+Maria Contreras-Sweet	1541518434	MContrerasSweet	D
+Abraham, Ralph Lee	2962891515	RepAbraham	R
+Adams, Alma S.	2916086925	RepAdams	D
+Aderholt, Robert B.	76452765	Robert_Aderholt	R
+Aguilar, Pete	3018670151	RepPeteAguilar	D
+Alexander, Lamar	76649729	SenAlexander	R
+Allen, Rick W.	2964287128	RepRickAllen	R
+Amash, Justin	233842454	justinamash	R
+Amodei, Mark E.	85689484	AmodeiForNevada	R
+Arrington, Jodey C.	3609064098	JodeyArrington	R
+Babin, Brian	2929491549	RepBrianBabin	R
+Bacon, Don	818975124460335106	RepDonBacon	R
+Balderson, Troy	603083228	Troy_Balderson	R
+Baldwin, Tammy	1074518754	SenatorBaldwin	D
+Banks, Jim	816131319033950208	RepJimBanks	R
+Barletta, Lou	93965901	louforsenate	R
+Barr, Andy	1089334250	RepAndyBarr	R
+Barragan, Nanette Diaz	303633791	Nanette4CA	D
+Barrasso, John	202206694	SenJohnBarrasso	R
+Barton, Joe	19929362	RepJoeBarton	R
+Bass, Karen	239949176	RepKarenBass	D
+Beatty, Joyce	1531521632	RepBeatty	D
+Becerra, Xavier	133832049	AGBecerra	D
+Bera, Ami	950783972	RepBera	D
+Bergman, Jack	815241612154417152	RepJackBergman	R
+Beyer, Donald S., Jr.	2962868158	RepDonBeyer	D
+Biggs, Andy	816652616625168388	RepAndyBiggsAZ	R
+Bilirakis, Gus M.	26051676	RepGusBilirakis	R
+Bishop, Mike	2485713498	ElectMikeBishop	R
+Bishop, Rob	148006729	RepRobBishop	R
+Bishop, Sanford D., Jr.	249410485	SanfordBishop	D
+Black, Diane	110545675	RepDianeBlack	R
+Blackburn, Marsha	278145569	MarshaBlackburn	R
+Blum, Rod	2965083477	RepRodBlum	R
+Blumenauer, Earl	15954997	repblumenauer	D
+Blumenthal, Richard	278124059	SenBlumenthal	D
+Blunt Rochester, Lisa	4049197462	LisaBRochester	D
+Blunt, Roy	21269970	RoyBlunt	R
+Bonamici, Suzanne	558769636	RepBonamici	D
+Booker, Cory A.	15808765	CoryBooker	D
+Boozman, John	5558312	JohnBoozman	R
+Bost, Mike	2964877294	RepBost	R
+Boyle, Brendan F.	231108733	RepBrendanBoyle	D
+Brady, Kevin	19926675	RepKevinBrady	R
+Brady, Robert A.	17996269	robert_brady	D
+Brat, Dave	2279098645	DaveBratVA7th	R
+Bridenstine, Jim	243418245	JimBridenstine	R
+Brooks, Mo	237299871	RepMoBrooks	R
+Brooks, Susan W.	1074101017	SusanWBrooks	R
+Brown, Anthony G.	823552974253342721	RepAnthonyBrown	D
+Brown, Sherrod	24768753	SherrodBrown	D
+Brownley, Julia	44251742	JuliaBrownley	D
+Buchanan, Vern	20467163	VernBuchanan	R
+Buck, Ken	2862577383	RepKenBuck	R
+Bucshon, Larry	234812598	RepLarryBucshon	R
+Budd, Ted	817138492614524928	RepTedBudd	R
+Burgess, Michael C.	15751083	michaelcburgess	R
+Burr, Richard	21157904	SenatorBurr	R
+Bustos, Cheri	1092979962	RepCheri	D
+Butterfield, G. K.	432676344	GKButterfield	D
+Byrne, Bradley	2253968388	RepByrne	R
+Calvert, Ken	22545491	KenCalvert	R
+Cantwell, Maria	117501995	SenatorCantwell	D
+Capito, Shelley Moore	193794406	SenCapito	R
+Capuano, Michael E.	75785294	mikecapuano	D
+Carbajal, Salud O.	816157667882373120	RepCarbajal	D
+Cardenas, Tony	1222257180	RepCardenas	D
+Cardin, Benjamin L.	109071031	SenatorCardin	D
+Carper, Thomas R.	249787913	SenatorCarper	D
+Carson, Andre	199325935	RepAndreCarson	D
+"Carter, Earl L. ""Buddy"""	2973870195	RepBuddyCarter	R
+Carter, John R.	18030431	JudgeCarter	R
+Cartwright, Matt	776664410	RepCartwright	D
+Casey, Robert P., Jr.	171598736	SenBobCasey	D
+Cassidy, Bill	55677432	BillCassidy	R
+Castor, Kathy	756123897783808000	KathyCastorFL	D
+Castro, Joaquin	231510077	JoaquinCastrotx	D
+Chabot, Steve	237750442	RepSteveChabot	R
+Chaffetz, Jason	17800215	jasoninthehouse	R
+Cheney, Liz	98471035	Liz_Cheney	R
+Chu, Judy	193732179	RepJudyChu	D
+Cicilline, David N.	462143773	RepCicilline	D
+Clark, Katherine M.	23201727	KatherineClark	D
+Clarke, Yvette D.	240812994	RepYvetteClarke	D
+Clay, Wm. Lacy	584912320	LacyClayMO1	D
+Cleaver, Emanuel	163570705	repcleaver	D
+Cloud, Michael	23725826	MichaelJCloud	R
+Cochran, Thad	555474658	SenThadCochran	R
+Coffman, Mike	19407835	RepMikeCoffman	R
+Cohen, Steve	162069635	RepCohen	D
+Cole, Tom	23124635	TomColeOK04	R
+Collins, Chris	1058256326	RepChrisCollins	R
+Collins, Doug	1060487274	RepDougCollins	R
+Collins, Susan M.	19726613	SenatorCollins	R
+Comer, James	838462994	KYComer	R
+Comstock, Barbara	2933760046	RepComstock	R
+Conaway, K. Michael	295685416	ConawayTX11	R
+Connolly, Gerald E.	78445977	GerryConnolly	D
+Conyers, John, Jr.	138770045	RepJohnConyers	D
+Cook, Paul	1074412920	RepPaulCook	R
+Coons, Christopher A.	15324851	ChrisCoons	D
+Cooper, Jim	22523087	repjimcooper	D
+Corker, Bob	73303753	SenBobCorker	R
+Cornyn, John	13218102	JohnCornyn	R
+Correa, J. Luis	815985039485837312	RepLouCorrea	D
+Cortez Masto, Catherine 	811313565760163844	SenCortezMasto	D
+Costa, Jim	245451804	RepJimCosta	D
+Costello, Ryan A.	484129385	RN_Costello	R
+Cotton, Tom	968650362	SenTomCotton	R
+Courtney, Joe	85396297	RepJoeCourtney	D
+Cramer, Kevin	28267055	kevincramer	R
+Crapo, Mike	600463589	MikeCrapo	R
+"Crawford, Eric A. ""Rick"""	233693291	RepRickCrawford	R
+Crist, Charlie	38970940	CharlieCrist	D
+Crowley, Joseph	111635980	JoeCrowleyNY	D
+Cruz, Ted	1074480192	SenTedCruz	R
+Cuellar, Henry	210926192	RepCuellar	D
+Culberson, John Abney	14904437	johnculberson	R
+Cummings, Elijah E.	787373558	RepCummings	D
+Curbelo, Carlos	2853309155	carloslcurbelo	R
+Curtis, John R.	26057209	CurtisUT	R
+Daines, Steve	11651202	SteveDaines	R
+Davidson, Warren	742735530287304704	WarrenDavidson	R
+Davis, Danny K.	789244177	RepDannyDavis	D
+Davis, Rodney	993153006	RodneyDavis	R
+Davis, Susan A.	432771620	RepSusanDavis	D
+DeFazio, Peter A.	252249233	RepPeterDeFazio	D
+DeGette, Diana	28599820	RepDianaDeGette	D
+Delaney, John K.	426028646	JohnKDelaney	D
+DeLauro, Rosa L.	140519774	rosadelauro	D
+DelBene, Suzan K.	995193054	RepDelBene	D
+Denham, Jeff	21346398	JeffDenham	R
+Dent, Charles W.	242376736	RepCharlieDent	R
+DeSantis, Ron	487297085	RonDeSantisFL	R
+DeSaulnier, Mark	2968007206	RepDeSaulnier	D
+DesJarlais, Scott	235312723	DesJarlaisTN04	R
+Deutch, Theodore E.	137794015	RepTedDeutch	D
+Diaz-Balart, Mario	37094727	MarioDB	R
+Dingell, Debbie	2970279814	RepDebDingell	D
+Doggett, Lloyd	153944899	RepLloydDoggett	D
+Donnelly, Joe	216503958	SenDonnelly	D
+Donovan, Daniel M., Jr.	3353670647	RepDanDonovan	R
+Doyle, Michael F.	39249305	USRepMikeDoyle	D
+Duckworth, Tammy	1058520120	SenDuckworth	D
+Duffy, Sean P.	234022257	RepSeanDuffy	R
+Duncan, Jeff	38520853	JeffDuncan_	R
+Duncan, John J., Jr.	1883356866	RepJohnDuncanJr	R
+Dunn, Neal P.	815952318487298048	DrNealDunnFL2	R
+Durbin, Richard J.	247334603	SenatorDurbin	D
+Ellison, Keith	14135426	keithellison	D
+Emmer, Tom	2914515430	RepTomEmmer	R
+Engel, Eliot L.	164007407	RepEliotEngel	D
+Enzi, Michael B.	291756142	SenatorEnzi	R
+Ernst, Joni 	2856787757	SenJoniErnst	R
+Eshoo, Anna G.	249348006	RepAnnaEshoo	D
+Espaillat, Adriano	817076257770835968	RepEspaillat	D
+Estes, Ron	854715071116849157	RepRonEstes	R
+Esty, Elizabeth H.	1060984272	Elizabeth_Esty	D
+Evans, Dwight	90639372	RepDwightEvans	D
+Farenthold, Blake	17896154	farenthold	R
+Faso, John J.	815931811348017152	RepJohnFaso	R
+Feinstein, Dianne	378631423	DianneFeinstein	D
+Ferguson, A. Drew, IV	806583915012046854	RepDrewFerguson	R
+Fischer, Deb	323490669	DebFischerNE	R
+Fitzpatrick, Brian K.	816303263586914304	RepBrianFitz	R
+Flake, Jeff	16056306	JeffFlake	R
+"Fleischmann, Charles J. ""Chuck"""	235190657	RepChuck	R
+Flores, Bill	237312687	RepBillFlores	R
+Fortenberry, Jeff	18805303	JeffFortenberry	R
+Foster, Bill	1080509366	RepBillFoster	D
+Foxx, Virginia	16256269	virginiafoxx	R
+Frankel, Lois	1077121945	RepLoisFrankel	D
+Franken, Al	171968009	SenFranken	D
+Fudge, Marcia L.	153486399	RepMarciaFudge	D
+Gabbard, Tulsi	26637348	TulsiGabbard	D
+Gaetz, Matt	818948638890217473	RepMattGaetz	R
+Gallagher, Mike	815966620300480514	RepGallagher	R
+Gallego, Ruben	2966570782	RepRubenGallego	D
+Garamendi, John	88806753	RepGaramendi	D
+Gardner, Cory	235217558	SenCoryGardner	R
+Garrett, Thomas A., Jr.	818460870573441028	RepTomGarrett	R
+Gianforte, Greg	3420965229	GregForMontana	R
+Gibbs, Bob	234822928	RepBobGibbs	R
+Gillibrand, Kirsten E.	72198806	SenGillibrand	D
+Gohmert, Louie	22055226	replouiegohmert	R
+Gomez, Jimmy	2371339658	RepJimmyGomez	D
+Gonzalez, Vicente	818536152588238849	RepGonzalez	D
+Gonzalez-Colon, Jenniffer	819744763020775425	RepJenniffer	R
+Goodlatte, Bob	37920978	RepGoodlatte	R
+Gosar, Paul A.	240760644	RepGosar	R
+Gottheimer, Josh	431105217	JoshGottheimer	D
+Gowdy, Trey	237348797	TGowdySC	R
+Graham, Lindsey	432895323	LindseyGrahamSC	R
+Granger, Kay	161743731	RepKayGranger	R
+Grassley, Chuck	10615232	ChuckGrassley	R
+Graves, Garret	2951574214	RepGarretGraves	R
+Graves, Sam	29766367	RepSamGraves	R
+Graves, Tom	190328374	RepTomGraves	R
+Green, Al	156333623	RepAlGreen	D
+Green, Gene	378584930	greenthegene	D
+Griffith, H. Morgan	234057152	RepMGriffith	R
+Grijalva, Raul M.	28602948	RepRaulGrijalva	D
+Grothman, Glenn	2976606250	RepGrothman	R
+Guthrie, Brett	1908143071	RepGuthrie	R
+Gutierrez, Luis V.	36948268	RepGutierrez	D
+Hanabusa, Colleen	235373000	RepHanabusa	D
+Harper, Gregg	23712174	GreggHarper	R
+Harris, Andy	960962340	RepAndyHarrisMD	R
+Harris, Kamala D.	30354991	KamalaHarris	D
+Hartzler, Vicky	237763317	RepHartzler	R
+Hassan, Margaret Wood	946549322	SenatorHassan	D
+Hastings, Alcee L.	2433737761	RepHastingsFL	D
+Hatch, Orrin G.	262756641	senorrinhatch	R
+Heck, Denny	1068499286	RepDennyHeck	D
+Heinrich, Martin	183062944	TeamHeinrich	D
+Heitkamp, Heidi	460376288	HeidiHeitkamp	D
+Heller, Dean	266133081	SenDeanHeller	R
+Hensarling, Jeb	18566912	RepHensarling	R
+Hern, Kevin	19168067	krhern	R
+Herrera Beutler, Jaime	242926427	HerreraBeutler	R
+Hice, Jody B.	2975091705	CongressmanHice	R
+Higgins, Brian	33576489	RepBrianHiggins	D
+Higgins, Clay	843636970538618880	RepClayHiggins	R
+Hill, J. French	2953974395	RepFrenchHill	R
+Himes, James A.	31611298	jahimes	D
+Hirono, Mazie K.	92186819	maziehirono	D
+Hoeven, John	382791093	SenJohnHoeven	R
+Holding, George	1058460818	RepHolding	R
+Hollingsworth, Trey	811986281177772032	RepTrey	R
+Hoyer, Steny H.	266719387	StenyHoyer	D
+Hudson, Richard	935033864	RepRichHudson	R
+Huffman, Jared	334894942	JaredHuffman	D
+Huizenga, Bill	233949261	RepHuizenga	R
+Hultgren, Randy	237814920	RepHultgren	R
+Hunter, Duncan D.	1305596696	Rep_Hunter	R
+Hurd, Will	2963445730	HurdOnTheHill	R
+Hyde-Smith, Cindy	262192574	cindyhydesmith	R
+Inhofe, James M.	7270292	JimInhofe	R
+Isakson, Johnny	78403308	SenatorIsakson	R
+Issa, Darrell E.	22509548	DarrellIssa	R
+Jackson Lee, Sheila	80612021	JacksonLeeTX18	D
+Jayapal, Pramila	815733290955112448	RepJayapal	D
+Jeffries, Hakeem S.	467823431	RepJeffries	D
+Jenkins, Evan H.	1635375612	EvanJenkinsWV	R
+Johnson, Bill	100884451	billjohnsonBJM	R
+Johnson, Eddie Bernice	168502762	RepEBJ	D
+"Johnson, Henry C. ""Hank,"" Jr."	24745957	RepHankJohnson	D
+Johnson, Mike	103761467	MikePWInsider	R
+Johnson, Ron	233737858	SenRonJohnson	R
+Johnson, Sam	61553835	samjohnson	R
+Jones, Brenda	1010616057932013571	VoteBrendaJones	D
+Jones, Doug 	941080085121175552	SenDougJones	D
+Jones, Walter B., Jr.	26778110	RepWalterJones	R
+Jordan, Jim	18166778	Jim_Jordan	R
+Joyce, David P.	976969338	RepDaveJoyce	R
+Kaine, Tim	172858784	timkaine	D
+Kaptur, Marcy	581141508	RepMarcyKaptur	D
+Katko, John	2966765501	RepJohnKatko	R
+Keating, William R.	232992031	USRepKeating	D
+Kelly, Mike	935368364	MikeKellyPA	R
+Kelly, Robin L.	1339931490	RepRobinKelly	D
+Kelly, Trent	710820198606106624	Kat9798	R
+Kennedy, John	816683274076614656	SenJohnKennedy	R
+Kennedy, Joseph P., III	1055907624	RepJoeKennedy	D
+Khanna, Ro	816298918468259841	RepRoKhanna	D
+Kihuen, Ruben J.	816282029276938240	RepKihuen	D
+Kildee, Daniel T.	1045110018	RepDanKildee	D
+Kilmer, Derek	1058917562	RepDerekKilmer	D
+Kind, Ron	112740986	RepRonKind	D
+King, Angus S., Jr.	1068481578	SenAngusKing	I
+King, Peter T.	18277655	RepPeteKing	R
+King, Steve	48117116	SteveKingIA	R
+Kinzinger, Adam	219429281	RepKinzinger	R
+Klobuchar, Amy	33537967	amyklobuchar	D
+Knight, Stephen	456636692	GSpellchecker	R
+Krishnamoorthi, Raja	814179031956488192	CongressmanRaja	D
+Kuster, Ann M.	1058717720	RepAnnieKuster	D
+Kustoff, David	317386234	DavidKustoff	R
+Kyl, Jon	24905240	SenJonKyl	R
+Labrador, Raul R.	246341769	Raul_Labrador	R
+LaHood, Darin	3686482216	RepLaHood	R
+LaMalfa, Doug	1069124515	RepLaMalfa	R
+Lamb, Conor	855240223432769538	ConorLambPA	D
+Lamborn, Doug	584012853	RepDLamborn	R
+Lance, Leonard	613725908	RepLanceNJ7	R
+Langevin, James R.	18909919	JimLangevin	D
+Lankford, James	225921757	SenatorLankford	R
+Larsen, Rick	404132211	RepRickLarsen	D
+Larson, John B.	50452197	RepJohnLarson	D
+Latta, Robert E.	15394954	boblatta	R
+Lawrence, Brenda L.	2863006655	RepLawrence	D
+Lawson, Al, Jr.	818472418620608512	RepAlLawsonJr	D
+Leahy, Patrick J.	242836537	SenatorLeahy	D
+Lee, Barbara	248735463	RepBarbaraLee	D
+Lee, Mike	88784440	SenMikeLee	R
+Lesko, Debbie	34715823	DebbieLesko	R
+Levin, Sander M.	25781141	repsandylevin	D
+Lewis, Jason	801255835	JasonLewis	R
+Lewis, John	29450962	repjohnlewis	D
+Lieu, Ted	3044993235	RepTedLieu	D
+Lipinski, Daniel	1009269193	RepLipinski	D
+Loebsack, David	510516465	daveloebsack	D
+Lofgren, Zoe	267938462	RepZoeLofgren	D
+Long, Billy	1444015610	USRepLong	R
+Loudermilk, Barry	2914163523	RepLoudermilk	R
+Love, Mia B.	343171266	MiaBLove	R
+Lowenthal, Alan S.	1055730738	RepLowenthal	D
+Lowey, Nita M.	221792092	NitaLowey	D
+Lucas, Frank D.	242772524	RepFrankLucas	R
+Luetkemeyer, Blaine	1849261916	RepBlaine	R
+Lujan Grisham, Michelle	368472546	Michelle4NM	D
+Lujan, Ben Ray	19318314	repbenraylujan	D
+Lynch, Stephen F.	130901013	RepLynch	D
+MacArthur, Thomas	2962994194	RepTomMacArthur	R
+Maloney, Carolyn B.	258900199	RepMaloney	D
+Maloney, Sean Patrick	1072467470	RepSeanMaloney	D
+Manchin, Joe, III	234374703	Sen_JoeManchin	D
+Marchant, Kenny	23976316	RepKenMarchant	R
+Markey, Edward J.	21406834	SenMarkey	D
+Marshall, Roger W.	1240107944	RogerMarshallMD	R
+Massie, Thomas	975200486	RepThomasMassie	R
+Mast, Brian J.	814103950404239360	RepBrianMast	R
+Matsui, Doris O.	38254095	DorisMatsui	D
+McCain, John	19394188	SenJohnMcCain	R
+McCarthy, Kevin	15428227	kevinomccarthy	R
+McCaskill, Claire	16160352	clairecmc	D
+McCaul, Michael T.	26424123	RepMcCaul	R
+McClintock, Tom	50152441	RepMcClintock	R
+McCollum, Betty	516880804	BettyMcCollum04	D
+McConnell, Mitch	1249982359	senatemajldr	R
+McEachin, A. Donald	816181091673448448	RepMcEachin	D
+McGovern, James P.	242426145	RepMcGovern	D
+McHenry, Patrick T.	27676828	PatrickMcHenry	R
+McKinley, David B.	240427862	RepMcKinley	R
+McNerney, Jerry	385429543	RepMcNerney	D
+McSally, Martha	482450423	MarthaMcSally	R
+Meadows, Mark	963480595	RepMarkMeadows	R
+Meehan, Patrick	103868633	PatMeehanPA	R
+Menendez, Robert	18695134	SenatorMenendez	D
+Meng, Grace	1051127714	RepGraceMeng	D
+Merkley, Jeff	29201047	SenJeffMerkley	D
+Mitchell, Paul	18268819	paulmitche11	R
+Moolenaar, John R.	2696643955	RepMoolenaar	R
+Mooney, Alexander X.	2964526557	RepAlexMooney	R
+Moore, Gwen	22669526	RepGwenMoore	D
+Moran, Jerry	18632666	JerryMoran	R
+Morelle, Joseph D.	977247448820305920	votemorelle	D
+Moulton, Seth	248495200	sethmoulton	D
+Mullin, Markwayne	1060370282	RepMullin	R
+Murkowski, Lisa	18061669	lisamurkowski	R
+Murphy, Christopher	150078976	ChrisMurphyCT	D
+Murphy, Stephanie N.	796183515998068736	RepStephMurphy	D
+Murphy, Tim	2685397856	The_Tim_Murphy	R
+Murray, Patty	293131808	PattyMurray	D
+Napolitano, Grace F.	161411080	gracenapolitano	D
+Neal, Richard E.	442824717	RepRichardNeal	D
+Nelson, Bill	20597460	SenBillNelson	D
+Newhouse, Dan	2930635215	RepNewhouse	R
+Noem, Kristi L.	114388293	KristiNoem	R
+Nolan, Richard M.	1055685948	USRepRickNolan	D
+Norcross, Donald	3122099613	DonaldNorcross	D
+Norman, Ralph	880480631108644864	RepRalphNorman	R
+Norton, Eleanor Holmes	23600262	EleanorNorton	D
+Nunes, Devin	344972339	RepDevinNunes	R
+O'Halleran, Tom	808416682972770304	RepOHalleran	D
+O'Rourke, Beto	342863309	BetoORourke	D
+Olson, Pete	20053279	RepPeteOlson	R
+Palazzo, Steven M.	299883942	CongPalazzo	R
+Pallone, Frank, Jr.	31801993	FrankPallone	D
+Palmer, Gary J.	2861616083	USRepGaryPalmer	R
+Panetta, Jimmy	796736612554117120	RepJimmyPanetta	D
+Pascrell, Bill, Jr.	74508260	BillPascrell	D
+Paul, Rand	216881337	RandPaul	R
+Paulsen, Erik	89001820	Erik_Paulsen	R
+Payne, Donald M., Jr.	1155335864	RepDonaldPayne	D
+Pearce, Stevan	38978018	Pearce4NM	R
+Pelosi, Nancy	15764644	SpeakerPelosi	D
+Perdue, David	2863210809	sendavidperdue	R
+Perlmutter, Ed	20552026	RepPerlmutter	D
+Perry, Scott	459755446	PerryScott012	R
+Peters, Gary C.	236511574	SenGaryPeters	D
+Peters, Scott H.	1135486501	RepScottPeters	D
+Peterson, Collin C.	115676070	collinpeterson	D
+Pingree, Chellie	14984637	chelliepingree	D
+Pittenger, Robert	950328072	RepPittenger	R
+Plaskett, Stacey E.	2724095695	StaceyPlaskett	D
+Pocan, Mark	309070309	MarkPocan	D
+Poe, Ted	74198348	JudgeTedPoe	R
+Poliquin, Bruce	2932617195	RepPoliquin	R
+Polis, Jared	15361570	jaredpolis	D
+Portman, Rob	18915145	senrobportman	R
+Posey, Bill	25086658	congbillposey	R
+Price, David E.	155669457	RepDavidEPrice	D
+Price, Tom	829782369670410240	SecPriceMD	R
+Quigley, Mike	56864092	RepMikeQuigley	D
+Radewagen, Aumua Amata Coleman	3026622545	RepAmata	R
+Raskin, Jamie	806906355214852096	RepRaskin	D
+Ratcliffe, John	2847221717	RepRatcliffe	R
+Reed, Jack	486694111	SenJackReed	D
+Reed, Tom	252819323	RepTomReed	R
+Renacci, James B.	2337241560	JimRenacci	R
+Rice, Kathleen M.	2970462034	RepKathleenRice	D
+Rice, Tom	1058345042	RepTomRice	R
+Richmond, Cedric L.	267854863	RepRichmond	D
+Risch, James E.	1096059529	SenatorRisch	R
+Roberts, Pat	75364211	SenPatRoberts	R
+Roby, Martha	69086398	TeamRoby	R
+Rodgers, Cathy McMorris	17976923	cathymcmorris	R
+Roe, David P.	52503751	DrPhilRoe	R
+Rogers, Harold	550401754	RepHalRogers	R
+Rogers, Mike D.	33977070	RepMikeRogersAL	R
+Rohrabacher, Dana	19139963	DanaRohrabacher	R
+Rokita, Todd	17544524	ToddRokita	R
+Rooney, Francis	816111677917851649	RepRooney	R
+Rooney, Thomas J.	23970171	TomRooney	R
+Ros-Lehtinen, Ileana	14275291	RosLehtinen	R
+Rosen, Jacky	4749863113	RosenforNevada	D
+Ross, Dennis A.	3537275536	AmbDennisRoss	R
+Rothfus, Keith J.	1155212191	KeithRothfus	R
+Rounds, Mike 	2955485182	SenatorRounds	R
+Rouzer, David	834069080	RepDavidRouzer	R
+Roybal-Allard, Lucille	479872233	RepRoybalAllard	D
+Royce, Edward R.	246769138	RepEdRoyce	R
+Rubio, Marco	15745368	marcorubio	R
+Ruiz, Raul	1089859058	CongressmanRuiz	D
+Ruppersberger, C. A. Dutch	305620929	Call_Me_Dutch	D
+Rush, Bobby L.	305216911	RepBobbyRush	D
+Russell, Steve	2966758114	RepRussell	R
+Rutherford, John H.	828977216595849216	RepRutherfordFL	R
+Ryan, Paul D.	18916432	SpeakerRyan	R
+Ryan, Tim	13491312	RepTimRyan	D
+Sablan, Gregorio Kilili Camacho	926446070812602371	Kilili_Sablan	D
+Sanchez, Linda T.	312134473	RepLindaSanchez	D
+Sanders, Bernard	216776631	BernieSanders	I
+Sanford, Mark	1499993378	RepSanfordSC	R
+Sarbanes, John P.	364415553	RepSarbanes	D
+Sasse, Ben 	1480852568	BenSasse	R
+Scalise, Steve	1209417007	SteveScalise	R
+Scanlon, Mary Gay	1067541214671577093	RepMGS	D
+Schakowsky, Janice D.	24195214	janschakowsky	D
+Schatz, Brian	47747074	brianschatz	D
+Schiff, Adam B.	29501253	RepAdamSchiff	D
+Schneider, Bradley Scott	1071840474	RepSchneider	D
+Schrader, Kurt	20545793	RepSchrader	D
+Schumer, Charles E.	17494010	SenSchumer	D
+Schweikert, David	229197216	RepDavid	R
+Scott, Austin	110755266	ScottMAustin	R
+Scott, David	272465994	ScottDavidCast	D
+"Scott, Robert C. ""Bobby"""	161791703	BobbyScott	D
+Scott, Tim	217543151	SenatorTimScott	R
+Sensenbrenner, F. James, Jr.	851621377	JimPressOffice	R
+Serrano, Jose E.	33563161	RepJoseSerrano	D
+Sessions, Jeff	986781648	jeffsessions	R
+Sessions, Pete	24735461	PeteSessions	R
+Sewell, Terri A.	381152398	RepTerriSewell	D
+Shaheen, Jeanne	109287731	SenatorShaheen	D
+Shea-Porter, Carol	154139987	TeamSheaPorter	D
+Shelby, Richard C.	21111098	SenShelby	R
+Sherman, Brad	30216513	BradSherman	D
+Shimkus, John	15600527	RepShimkus	R
+Simpson, Michael K.	365922043	BorrowedSpace	R
+Sinema, Kyrsten	20747881	kyrstensinema	D
+Sires, Albio	18696134	RepSires	D
+Slaughter, Louise McIntosh	63169388	louiseslaughter	D
+Smith, Adam	58928690	RepAdamSmith	D
+Smith, Adrian	296245061	RepAdrianSmith	R
+Smith, Christopher H.	1289319271	RepChrisSmith	R
+Smith, Jason	181621546	JasonSmith929	R
+Smith, Lamar	15856366	LamarSmithTX21	R
+Smith, Tina 	47724293	TinaSmithMN	D
+Smucker, Lloyd	41417564	RepSmucker	R
+Soto, Darren	818713465653051392	RepDarrenSoto	D
+Speier, Jackie	24913074	RepSpeier	D
+Stabenow, Debbie	20113797	stabenow	D
+Stefanik, Elise M.	109579534	EliseStefanik	R
+Stewart, Chris	1072008757	RepChrisStewart	R
+Stivers, Steve	211420609	RepSteveStivers	R
+Strange, Luther	15141113	lutherstrange	R
+Sullivan, Dan 	2891210047	SenDanSullivan	R
+Suozzi, Thomas R.	816705409486618624	RepTomSuozzi	D
+Swalwell, Eric	942156122	RepSwalwell	D
+Takano, Mark	1037321378	RepMarkTakano	D
+Taylor, Scott	9115312	taylorscott	R
+Tenney, Claudia	756285384	claudiatenney	R
+Tester, Jon	515822213	SenatorTester	D
+Thompson, Bennie G.	82453460	BennieGThompson	D
+Thompson, Glenn	18967498	CongressmanGT	R
+Thompson, Mike	303861808	RepThompson	D
+Thornberry, Mac	1137590713	MacThornberry	R
+Thune, John	296361085	SenJohnThune	R
+Tiberi, Patrick J.	912608010	PatTiberi	R
+Tillis, Thom	22195441	ThomTillis	R
+Tipton, Scott  R.	242873057	RepTipton	R
+Titus, Dina	17907578	dinatitus	D
+Tonko, Paul	84119348	RepPaulTonko	D
+Toomey, Pat	26062385	PatToomey	R
+Torres, Norma J.	236279233	NormaJTorres	D
+Trott, David A.	19936673	davetrott	R
+Tsongas, Niki	242892689	nikiinthehouse	D
+Turner, Michael R.	51228911	RepMikeTurner	R
+Udall, Tom	60828944	SenatorTomUdall	D
+Upton, Fred	124224165	RepFredUpton	R
+Valadao, David G.	36676406	dgvaladao	R
+Van Hollen, Chris	18137749	ChrisVanHollen	D
+Vargas, Juan	1260172386	RepJuanVargas	D
+Veasey, Marc A.	1074129612	RepVeasey	D
+Vela, Filemon	1083448909	RepFilemonVela	D
+Velazquez, Nydia M.	164369297	NydiaVelazquez	D
+Visclosky, Peter J.	193872188	RepVisclosky	D
+Wagner, Ann	1051446626	RepAnnWagner	R
+Walberg, Tim	237862972	RepWalberg	R
+Walden, Greg	32010840	repgregwalden	R
+Walker, Mark	2966205003	RepMarkWalker	R
+Walorski, Jackie	1065995022	RepWalorski	R
+Walters, Mimi	2327941633	MimiWaltersCA	R
+Walz, Timothy J.	85726335	Tim_Walz	D
+Warner, Mark R.	7429102	MarkWarner	D
+Warren, Elizabeth	970207298	SenWarren	D
+Wasserman Schultz, Debbie	115979444	DWStweets	D
+Waters, Maxine	36686040	RepMaxineWaters	D
+Watson Coleman, Bonnie	2968451607	RepBonnie	D
+Weber, Randy K., Sr.	1058051748	TXRandy14	R
+Webster, Daniel	281540744	RepWebster	R
+Welch, Peter	1410590874	PeterWelch	D
+Wenstrup, Brad R.	518644221	RepBradWenstrup	R
+Westerman, Bruce	2852998461	RepWesterman	R
+Whitehouse, Sheldon	242555999	SenWhitehouse	D
+Wicker, Roger F.	264219447	SenatorWicker	R
+Wild, Susan	533324996	wildforcongress	D
+Williams, Roger	1077446982	RepRWilliams	R
+Wilson, Frederica S.	234014087	RepWilson	D
+Wilson, Joe	254082173	RepJoeWilson	R
+Wittman, Robert J.	46184745	ReElectWittman	R
+Womack, Steve	234469322	rep_stevewomack	R
+Woodall, Rob	2382685057	RepRobWoodall	R
+Wyden, Ron	250188760	RonWyden	D
+Yarmuth, John A.	234763384	yarmuth	D
+Yoder, Kevin	252819642	kevinyoder	R
+Yoho, Ted S.	1071900114	RepTedYoho	R
+Young, David	314205957	RepDavidYoung	R
+Young, Don	802612183209111552	ilovesaucegod	R
+Young, Todd C.	234128524	SenToddYoung	R
+Zeldin, Lee M.	2750127259	RepLeeZeldin	R
+Zinke, Ryan K.	827258161841135623	SecretaryZinke	R
+Donald J. Trump	25073877	realDonaldTrump	R
+Barack H. Obama	813286	BarackObama	D
+Hillary Clinton	1339835893	HillaryClinton	D
+Michelle Obama	409486555	MichelleObama	D
