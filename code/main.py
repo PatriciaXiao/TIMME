@@ -23,51 +23,51 @@ warnings.filterwarnings("ignore") # ignore the warnings
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-e','--epochs', type=int, default=300,
-                    help='Number of epochs to train.')
+                    help='Number of epochs to train. (default: 300)')
 parser.add_argument('--optimizer', type=str, default="Adam", choices=["Adagrad", "Adam"],
-                    help='The optimizer to use.')
-parser.add_argument('--lr', type=float, default=0.01, # 1e-3
-                    help='Initial learning rate.')
+                    help='The optimizer to use. (default: Adam)')
+parser.add_argument('--lr', type=float, default=0.01,
+                    help='Initial learning rate. (default: 0.01)')
 parser.add_argument('--lr_decay', type=float, default=1e-3,
-                    help='Learning rate decay.')
+                    help='Learning rate decay. (default: 1e-3)')
 parser.add_argument('--min_lr', type=float, default=1e-5,
-                    help='minimum learning rate')
+                    help='Minimum learning rate. (default: 1e-5)')
 parser.add_argument('--weight_decay', type=float, default=1e-5,
-                    help='Weight decay (L2 loss on parameters).')
-parser.add_argument('--hidden', type=int, default=100, # 16
-                    help='Number of hidden units.')
+                    help='Weight decay (L2 loss on parameters). (default: 1e-5)')
+parser.add_argument('--hidden', type=int, default=100,
+                    help='Number of hidden units. (default: 100)')
 parser.add_argument('--single_relation', type=int, default=0,
-                    help='The single-relation task to be run by single-relation.')
+                    help='The single-relation task to be run by single-relation. (default: 0)')
 parser.add_argument('-rd','--random', default=False, action='store_true',
-                    help='if random, we won\'t use the fixed random seed')
+                    help='if random, we won\'t use the fixed random seed (default: false)')
 parser.add_argument('--dropout', type=float, default=0.1,
-                    help='Dropout rate (1 - keep probability).')
+                    help='Dropout rate (default: 0.1).')
 parser.add_argument('-d','--data', type=str, default='twitter_2019_politicians_only',
-                    choices=["twitter_2019_politicians_only", "twitter_2019_20_50", "twitter_2019_50", "twitter_2019_20", "twitter_2019", "cora"],
-                    help='path of the data folder.')
+                    choices=["twitter_2019_politicians_only", "twitter_2019_20_50", "twitter_2019_50", "twitter_2019_20"],
+                    help='Dataset to use. (default: twitter_2019_politicians_only)')
 parser.add_argument('-r', '--relations', type=str, default=['retweet_list.csv', 'mention_list.csv', 'friend_list.csv', 'reply_list.csv', 'favorite_list.csv'], action='append',
-                    help='edge list files for different relations')
+                    help='Relations to use. (default: [\'retweet_list.csv\', \'mention_list.csv\', \'friend_list.csv\', \'reply_list.csv\', \'favorite_list.csv\'])')
 parser.add_argument('-t', '--task', type=str, default="Classification", choices=["Classification", "LinkPrediction", "MultitaskConcat", "MultiTask", "SingleLink"],
-                    help='the type of task to run with (default: classification)')
+                    help='The type of task to run with (default: Classification)')
 parser.add_argument('--skip_mode', type=str, default="none", choices=["none", "add", "concat"],
-                    help='not using skip connection, add layers, or conactenate layers')
+                    help='Not using skip connection, using skip-connection by adding the layers layer output, or skip-connection by conactenate layers. (default: none)')
 parser.add_argument('-att','--attention_mode', type=str, default="none", choices=["none", "naive", "self"],
-                    help='which attention mode to use, by default none')
+                    help='Which attention mode to use. (default: none)')
 parser.add_argument('-lrs','--lr_scheduler', type=str, default="none", choices=["Step", "ESL", "none"],
-                    help='which learning rate scheduler to use, by default Step')
+                    help='Which learning rate scheduler to use. (default: Step)')
 parser.add_argument('-f', '--feature', type=str, default=None,
                     choices=["tweets_average", "description", "status", "one_hot"],
-                    help='the feature to use')
+                    help='The feature to use. (default: None, referring to random)')
 parser.add_argument("--regularization_classification", type=float, default=None,
-                    help="regularization weight for node classification")
+                    help="The regularization weight for node classification. (default: None)")
 parser.add_argument("--regularization", type=float, default=0.01,
-                    help="regularization weight for link prediction")
+                    help="The regularization weight for link prediction. (default: 0.01)")
 parser.add_argument("--n_batches", type=int, default=10,
-                    help="number of batches for training link prediction task")
+                    help="The number of batches for training link prediction task. (default: 10)")
 parser.add_argument("--maximum_negative_rate", type=float, default=1.5,
-                    help="the maximum negative sampling rate for training link prediction task")
+                    help="The maximum negative sampling rate for training link prediction task")
 parser.add_argument('--freeze_feature', default=False, action='store_true',
-                    help='freeze the feature as encoder input or not')
+                    help='To freeze the feature as encoder input or not. (default: False)')
 
 args = parser.parse_args()
 
