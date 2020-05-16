@@ -1,2 +1,3 @@
 
 *.pyc
+data/twitter_2019_20/features.npz
