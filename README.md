@@ -1,10 +1,8 @@
 # TIMME
 
-TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding
+This repository contains the code implementation and the data of *TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding*.
 
-This repository contains the code implementation and the data used for the above-listed paper.
-
-Please cite the paper to use the dataset.
+Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the dataset.
 
 ## Environment
 
