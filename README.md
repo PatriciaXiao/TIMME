@@ -15,10 +15,10 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 
 - TIMME-single
 - TIMME
-- TIMME-hierarchal
+- TIMME-hierarchical
 
 | Model Name (in paper) | Task Name (in code) |
 |:---------------------:| :-----------------: |
 | TIMME-single          | SingleLink          |
 | TIMME                 | MultiTask           |
-| TIMME-hierarchal      | MultitaskConcat     |
+| TIMME-hierarchical    | MultitaskConcat     |
