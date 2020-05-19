@@ -8,3 +8,7 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 
 
 ## Usage
+
+## Hyperparameters
+
+### The variations of the model
