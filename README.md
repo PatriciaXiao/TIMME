@@ -12,3 +12,7 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 ## Hyperparameters
 
 ### The variations of the model
+
+- TIMME-single
+- TIMME
+- TIMME-hierarchal
