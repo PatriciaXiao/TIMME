@@ -1,5 +1,5 @@
 # Introduction
 
 ## Source of additional labels
-- Mostly from Zhicheng manual labeling
-- Re-formatted and stored in [new_dict.csv](new_dict.csv)
+- Zhicheng manual labeled by reading their profile descriptions (users self-reported information)
+- Re-formatted and stored in [new_dict_cleaned.csv](new_dict_cleaned.csv)
