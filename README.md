@@ -19,6 +19,8 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 
 | Model Name (in paper) | Task Name (in code) |
 |:---------------------:| :-----------------: |
+| N/A                   | Classification      |
+| N/A                   | LinkPrediction      |
 | TIMME-single          | SingleLink          |
 | TIMME                 | MultiTask           |
 | TIMME-hierarchical    | MultitaskConcat     |
