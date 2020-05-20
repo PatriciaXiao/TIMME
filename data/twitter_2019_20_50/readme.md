@@ -1,4 +1,4 @@
-# twitter_2019_20_50
+# P_all_50
 filtered from dataset ../twitter_2019/ according to:
 - all politicians are kept
 - followers and followees are filtered based on the lower threshold 20
