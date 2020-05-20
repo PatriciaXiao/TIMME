@@ -1,4 +1,4 @@
-# twitter_2019_politicians_only
+# PureP
 filtered from dataset ../twitter_2019/ according to:
 - all politicians are kept
 - randomly-selected followers and followees are all kept

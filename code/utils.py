@@ -259,7 +259,7 @@ def generate_masked_adjs(mask_info, n_entities, adjs):
     masked_adjs = apply_masks(adjs, all_masks)
     return masked_adjs
 
-def multi_relation_load(path="../data/twitter_2019_politicians_only", label="dict.csv",
+def multi_relation_load(path="../data/PureP", label="dict.csv",
                         files=["friend_list.csv", "retweet_list.csv"],
                         label_key = "twitter_id", label_property = "party", ignored_labels = ["I"],
                         calc_lap=None, separate_directions=True, feature_data=None, feature_file=None, feat_order_file="all_twitter_ids.csv",
