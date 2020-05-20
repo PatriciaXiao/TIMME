@@ -55,8 +55,8 @@ parser.add_argument('-att','--attention_mode', type=str, default="none", choices
                     help='Which attention mode to use. (default: none)')
 parser.add_argument('-lrs','--lr_scheduler', type=str, default="none", choices=["Step", "ESL", "none"],
                     help='Which learning rate scheduler to use. (default: Step)')
-parser.add_argument('-f', '--feature', type=str, default=None,
-                    choices=["tweets_average", "description", "status", "one_hot"],
+parser.add_argument('-f', '--feature', type=str, default="one_hot",
+                    choices=["tweets_average", "description", "status", "one_hot", "random"],
                     help='The feature to use. (default: None, referring to random)')
 parser.add_argument("--regularization_classification", type=float, default=None,
                     help="The regularization weight for node classification. (default: None)")
@@ -97,7 +97,7 @@ feature_file_table = {
     "description": "features.npz",
     "status": "features.npz",
     "one_hot": None,
-    None: None
+    "random": None
 }
 assert args.feature in feature_file_table.keys(), "We don't know how to get feature {}".format(args.feature)
 adjs, features, labels_info, trainable, mask, link_info, (label_map, all_id_list) = multi_relation_load(DATA, files=args.relations, \

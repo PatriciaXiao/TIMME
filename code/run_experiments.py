@@ -12,7 +12,7 @@ def run_commands(commands, directory="../results/"):
         os.system(report)
         os.system(cmd)
 
-# python3.7 main.py -e 100 --attention_mode self --skip_mode add -f one_hot
+# python3.7 main.py -e 10 --attention_mode self --skip_mode add
 
 directory = "../results/20_50/"
 

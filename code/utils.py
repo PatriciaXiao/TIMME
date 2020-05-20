@@ -262,7 +262,7 @@ def generate_masked_adjs(mask_info, n_entities, adjs):
 def multi_relation_load(path="../data/PureP", label="dict.csv",
                         files=["friend_list.csv", "retweet_list.csv"],
                         label_key = "twitter_id", label_property = "party", ignored_labels = ["I"],
-                        calc_lap=None, separate_directions=True, feature_data=None, feature_file=None, feat_order_file="all_twitter_ids.csv",
+                        calc_lap=None, separate_directions=True, feature_data="one_hot", feature_file=None, feat_order_file="all_twitter_ids.csv",
                         split_links=False, portion={"valid": 0.05, "test": 0.1}, freeze_feature=False,
                         additional_labels_files=["../data/additional_labels/new_dict_cleaned.csv"], add_additional_labels=True):
     print("Loading data from path {0}".format(path))
@@ -399,15 +399,15 @@ def multi_relation_load(path="../data/PureP", label="dict.csv",
     trainable = None
     mask = None
     
-    if feature_data is None:
-        # randomnized
-        features = sp.random(n_entities, 300, density=1.) # density is optional
+    if feature_data == "one_hot":
+        # one-hot
+        features = sp.eye(n_entities)
         features = normalize(features)
         # transfering into tensors
         features_ebm = sparse_mx_to_torch_sparse_tensor(features)
-    elif feature_data == "one_hot":
-        # one-hot
-        features = sp.eye(n_entities)
+    elif feature_data is "random":
+        # randomnized
+        features = sp.random(n_entities, 300, density=1.) # density is optional
         features = normalize(features)
         # transfering into tensors
         features_ebm = sparse_mx_to_torch_sparse_tensor(features)
