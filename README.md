@@ -22,3 +22,7 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 | TIMME-single          | SingleLink          |
 | TIMME                 | MultiTask           |
 | TIMME-hierarchical    | MultitaskConcat     |
+
+### Baseline Models
+
+For baseline models, please contact Haoyan.
