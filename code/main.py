@@ -11,7 +11,7 @@ import os
 from utils import multi_relation_load, save_node_pred, save_link_pred
 from model.model import Classification, LinkPrediction, MultitaskModel, MultitaskModelConcat, SingleLinkPred
 from model.embedding import PartlyLearnableEmbedding, FixedFeature
-from task import ClassificationTask, LinkPred_BatchTask, MultitaskManager
+from task import ClassificationTask, LinkPred_BatchTask, TIMMEManager
 
 import random
 import math
@@ -47,7 +47,7 @@ parser.add_argument('-d','--data', type=str, default='PureP',
                     help='Dataset to use. (default: PureP)')
 parser.add_argument('-r', '--relations', type=str, default=['retweet_list.csv', 'mention_list.csv', 'friend_list.csv', 'reply_list.csv', 'favorite_list.csv'], action='append',
                     help='Relations to use. (default: [\'retweet_list.csv\', \'mention_list.csv\', \'friend_list.csv\', \'reply_list.csv\', \'favorite_list.csv\'])')
-parser.add_argument('-t', '--task', type=str, default="Classification", choices=["Classification", "LinkPrediction", "MultitaskConcat", "MultiTask", "SingleLink"],
+parser.add_argument('-t', '--task', type=str, default="Classification", choices=["Classification", "LinkPrediction", "TIMME_SingleLink", "TIMME", "TIMME_hierarchical"],
                     help='The type of task to run with (default: Classification)')
 parser.add_argument('--skip_mode', type=str, default="none", choices=["none", "add", "concat"],
                     help='Not using skip connection, using skip-connection by adding the layers layer output, or skip-connection by conactenate layers. (default: none)')
@@ -88,7 +88,7 @@ if not args.random:
         torch.cuda.manual_seed(rd_seed)
 
 
-task_with_links = ["LinkPrediction", "MultitaskConcat", "MultiTask", "SingleLink"]
+task_with_links = ["LinkPrediction", "TIMME_hierarchical", "TIMME", "TIMME_SingleLink"]
 
 split_links=args.task in task_with_links
 
@@ -153,7 +153,7 @@ elif args.task == "LinkPrediction":
             skip_mode=args.skip_mode,
             attention_mode=args.attention_mode,
             trainable_features=trainable)
-elif args.task == "MultitaskConcat":
+elif args.task == "TIMME_hierarchical":
     model = MultitaskModelConcat(num_relations,
             num_entities,
             num_adjs,
@@ -166,7 +166,7 @@ elif args.task == "MultitaskConcat":
             skip_mode=args.skip_mode,
             attention_mode=args.attention_mode,
             trainable_features=trainable)
-elif args.task == "MultiTask":
+elif args.task == "TIMME":
     model = MultitaskModel(num_relations,
             num_entities,
             num_adjs,
@@ -179,7 +179,7 @@ elif args.task == "MultiTask":
             skip_mode=args.skip_mode,
             attention_mode=args.attention_mode,
             trainable_features=trainable)
-elif args.task == "SingleLink":
+elif args.task == "TIMME_SingleLink":
     model = SingleLinkPred(num_relations,
             num_entities,
             num_adjs,
@@ -228,15 +228,15 @@ elif args.task == "LinkPrediction": # This option is somewhat multi-task
     task.load_data(*link_info)
     task.process_data()
     task.run(args.epochs)
-elif args.task in ["MultiTask", "MultitaskConcat", "SingleLink"]:
-    task = MultitaskManager(model, feature_generator, adjs, args.lr, args.weight_decay, lr_scheduler=args.lr_scheduler, min_lr=args.min_lr, epochs=args.epochs, n_batches=args.n_batches, cuda=CUDA, negative_rate = args.maximum_negative_rate, max_epochs=args.epochs)
+elif args.task in ["TIMME", "TIMME_hierarchical", "TIMME_SingleLink"]:
+    task = TIMMEManager(model, feature_generator, adjs, args.lr, args.weight_decay, lr_scheduler=args.lr_scheduler, min_lr=args.min_lr, epochs=args.epochs, n_batches=args.n_batches, cuda=CUDA, negative_rate = args.maximum_negative_rate, max_epochs=args.epochs)
     task.load_data(*labels_info, *link_info)
     task.run(args.epochs)
     all_pred = task.get_pred()
     node_pred, link_pred = all_pred
     save_node_pred(node_pred, args.data, label_map, all_id_list, task=args.task)
     save_link_pred(link_pred, args.data, relations, all_id_list, task=args.task)
-    if args.task in ["MultitaskConcat"]:
+    if args.task in ["TIMME_hierarchical"]:
         print("Architecture 2, lambda value: {} for relations: {}".format(model.attention_weight, " ".join(relations)))
 
 

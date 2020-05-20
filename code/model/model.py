@@ -211,7 +211,7 @@ class MultitaskModel(nn.Module):
 class MultitaskModelConcat(MultitaskModel):
     def __init__(self, num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=None, skip_mode="none", attention_mode="none", trainable_features=None):
         super(MultitaskModelConcat, self).__init__(num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=regularization, skip_mode=skip_mode, attention_mode=attention_mode,trainable_features=trainable_features)
-        self._lambda = ScaledDotProductSelfAttention(nhid, num_entities) # couldn't use args, *args because we still need the content
+        self._lambda = ScaledDotProductSelfAttention(nhid, num_entities) 
         self.attention_weight = None
     def forward(self, x, adjs):
         gcn_embedding = self.gcn(x, adjs)
@@ -219,7 +219,7 @@ class MultitaskModelConcat(MultitaskModel):
         attention_weight = self._lambda(torch.stack(link_embeddings))
         node_x_in = torch.sum(attention_weight * torch.stack(link_embeddings, 2), 2)
         node_embedding = self.models[-1](node_x_in, adjs, calc_gcn=False)
-        self.attention_weight = attention_weight.detach().numpy() # for output
+        self.attention_weight = attention_weight.detach().numpy()
         return link_embeddings + [node_embedding]
     
 class SingleLinkPred(MultitaskModel):
