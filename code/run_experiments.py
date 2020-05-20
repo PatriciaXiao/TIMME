@@ -12,6 +12,8 @@ def run_commands(commands, directory="../results/"):
         os.system(report)
         os.system(cmd)
 
+# python3.7 main.py -e 100 --attention_mode self --skip_mode add -f one_hot
+
 directory = "../results/20_50/"
 
 # python3.7 main.py -e 100 --attention_mode self --skip_mode add -d P_20_50 -f one_hot
