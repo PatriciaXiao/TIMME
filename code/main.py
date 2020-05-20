@@ -43,7 +43,7 @@ parser.add_argument('-rd','--random', default=False, action='store_true',
 parser.add_argument('--dropout', type=float, default=0.1,
                     help='Dropout rate (default: 0.1).')
 parser.add_argument('-d','--data', type=str, default='PureP',
-                    choices=["PureP", "P50", "P_all_50", "P_all"],
+                    choices=["PureP", "P50", "P_20_50", "P_all"],
                     help='Dataset to use. (default: PureP)')
 parser.add_argument('-r', '--relations', type=str, default=['retweet_list.csv', 'mention_list.csv', 'friend_list.csv', 'reply_list.csv', 'favorite_list.csv'], action='append',
                     help='Relations to use. (default: [\'retweet_list.csv\', \'mention_list.csv\', \'friend_list.csv\', \'reply_list.csv\', \'favorite_list.csv\'])')
