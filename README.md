@@ -25,4 +25,4 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 
 ### Baseline Models
 
-For issues regarding baseline models, please contact Haoyan.
+Pending: repository to be released by Haoyan.
