@@ -23,8 +23,6 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 | TIMME                 | MultiTask           |
 | TIMME-hierarchical    | MultitaskConcat     |
 
-### The dataset names
-
 
 
 ### Baseline Models
