@@ -37,7 +37,7 @@ The components in our datasets:
 
 All relations are in the format of ```<from>	<to>	<count>```, where *from* is where this relation starts, *to* is whom involved on the other side, *count* is how many times these two person have this relationship in between in the time window we observe. (**note:** all relations are directed --- from A to B and from B to A are treated differently.)
 
-Something to note is that, in order to safely contianing the politicians' names and probably some special characters, we decided to use ```\t``` as our separator, for almost all the data files we use.
+Something to note is that, in order to safely contain the politicians' names and probably some other special characters, we decided to **use ```\t``` as our separator**, for almost all the data files we use.
 
 ## Additional Labels
 
