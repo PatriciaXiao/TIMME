@@ -27,7 +27,7 @@ loaded = np.load(features_file)
 print(loaded["tweets_average"][0,:])
 ```
 
-* features.npz: the file storing the average GloVe embeddings of the words in each user's account **description** or **status**. Sample usage:
+* features.npz: the file storing the average GloVe embeddings of the words in each user's account **description** or **status** fields. Sample usage:
 
 ```python
 import numpy as np
@@ -45,7 +45,7 @@ Something to note is that, in order to safely contain the politicians' names and
 
 ## Additional Labels
 
-Additional labels are extracted by reading the [user profile information](./data/simplified_user_info.json)'s **description** part, done by Zhicheng manually.
+Additional labels are extracted by reading the [user profile information](./data/simplified_user_info.json)'s **description** field, done by Zhicheng manually.
 
 The additional labels we have are stored under [additional_labels](./additional_labels) folder.
 
