@@ -8,7 +8,7 @@ To
 
 ## Yupeng's Dataset
 
-Yupeng's dataset is collected by Yupeng Gu at around 2013, 2014.
+Yupeng's dataset is collected by [Yupeng Gu](https://scholar.google.com/citations?user=11jDFV8AAAAJ&hl=en) at around 2013, 2014.
 
 The data size is much smaller than ours, relation types are fewer, but the format is mostly the same. To understand and use his data, please read [his paper](https://arxiv.org/abs/1612.08207), and cite it:
 ```
