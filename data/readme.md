@@ -29,13 +29,13 @@ print(loaded["tweets_average"][0,:])
 
 * features.npz: the file storing the average GloVe embeddings of the words in each user's account **description** or **status**. Sample usage:
 
-      ```python
-      import numpy as np
-      features_file = "features.npz"
-      loaded = np.load(features_file)
-      print(loaded['description'][0,:])
-      print(loaded['status'][0,:])
-      ```
+```python
+import numpy as np
+features_file = "features.npz"
+loaded = np.load(features_file)
+print(loaded['description'][0,:])
+print(loaded['status'][0,:])
+```
 
 * all_twitter_ids.csv: it is useful only when you load the features, as the features in *tweet_features.npz* or *features.npz* are stored as numpy matrix, and each row corresponds to a user. Those user's twitter ids are as listed here in all_twitter_ids.csv.
 
