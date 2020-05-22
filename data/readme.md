@@ -45,9 +45,11 @@ Something to note is that, in order to safely contain the politicians' names and
 
 ## Additional Labels
 
-Additional labels are extracted by reading the [user profile information](./data/simplified_user_info.json)'s **description** part, done by [Zhicheng Ren](https://github.com/franklinnwren) manually.
+Additional labels are extracted by reading the [user profile information](./data/simplified_user_info.json)'s **description** part, done by Zhicheng manually.
 
 The additional labels we have are stored under [additional_labels](./additional_labels) folder.
+
+For mored details, please visit [TIMME-additional-labels](https://github.com/franklinnwren/TIMME-additional-labels).
 
 ## Formatted Location
 
