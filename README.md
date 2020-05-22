@@ -25,6 +25,8 @@ All other dependencies should be automatically installed once you get these pack
 
 ## Related Reporitories
 
+Baseline models, and the geography visualization code, are given in separate repositories.
+
 ### Baseline Models
 
 Pending: repository to be released by Haoyan.
