@@ -23,6 +23,23 @@ All other dependencies should be automatically installed once you get these pack
 
 ## Usage
 
+### Hyperparameters
+
+#### The variations of the model
+
+- TIMME-single
+- TIMME
+- TIMME-hierarchical
+
+| Model Name (in paper) | Task Name (in code) |
+|:---------------------:| :-----------------: |
+| N/A                   | Classification      |
+| N/A                   | LinkPrediction      |
+| TIMME-single          | TIMME_SingleLink    |
+| TIMME                 | TIMME               |
+| TIMME-hierarchical    | TIMME_hierarchical  |
+
+
 ## Related Reporitories
 
 Baseline models, and the geography visualization code, are given in separate repositories.
@@ -41,20 +58,3 @@ Geography visualization tasks envolve two parts: first, interprete the location 
 * [TIMME-data-visualization](https://github.com/franklinnwren/TIMME-data-visualization)
 
 by Zhicheng Ren.
-
-## Hyperparameters
-
-### The variations of the model
-
-- TIMME-single
-- TIMME
-- TIMME-hierarchical
-
-| Model Name (in paper) | Task Name (in code) |
-|:---------------------:| :-----------------: |
-| N/A                   | Classification      |
-| N/A                   | LinkPrediction      |
-| TIMME-single          | TIMME_SingleLink    |
-| TIMME                 | TIMME               |
-| TIMME-hierarchical    | TIMME_hierarchical  |
-
