@@ -1,5 +1,7 @@
 # TIMME Dataset Documentation
 
+Our dataset is collected from Twitter API in 2019, by March.
+
 ## Relational Dataset (PureP, P50, P_20_50, P_all)
 
 These datasets are of the same format, corresponding to the four dataset we've used in our paper.
