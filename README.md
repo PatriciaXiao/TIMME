@@ -54,7 +54,7 @@ by Zhicheng Ren.
 |:---------------------:| :-----------------: |
 | N/A                   | Classification      |
 | N/A                   | LinkPrediction      |
-| TIMME-single          | SingleLink          |
-| TIMME                 | MultiTask           |
-| TIMME-hierarchical    | MultitaskConcat     |
+| TIMME-single          | TIMME_SingleLink    |
+| TIMME                 | TIMME               |
+| TIMME-hierarchical    | TIMME_hierarchical  |
 
