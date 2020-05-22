@@ -57,6 +57,8 @@ Locations are extracted from [user profile information](./data/simplified_user_i
 
 The location information associated with the accounts are self-reported by some of the Twitter users. It is neither mandatory nor fully-reliable. Zhicheng cross-check the self-reported locations with the USA states and city names, wrote an automatic script of extracting their locations. The result is as shown in [formatted_location](./formatted_location).
 
+For more details, please visit [TIMME-formatted-location](https://github.com/franklinnwren/TIMME-formatted-location).
+
 ## Yupeng's Dataset
 
 Yupeng's dataset is collected by [Yupeng Gu](https://scholar.google.com/citations?user=11jDFV8AAAAJ&hl=en) at around 2013, 2014.
