@@ -4,7 +4,7 @@
 
 These datasets are of the same format, corresponding to the four dataset we've used in our paper.
 
-To use our dataset, please cite our paper
+To use our dataset and/or code, please cite our paper
 ```
 
 ```
@@ -16,6 +16,8 @@ The components in our datasets:
 * mention_list.csv: the relation of A mention B in her/his tweet (retweeting's automatic @ is excluded).
 * reply_list.csv: the relation of A replying to B's tweet.
 * retweet_list.csv: the relation of A retweet from B. This retweet include retweeting with / without comments. In other places, *retweet with comment* is sometimes referred to as "quote". The reason why we treated them the same is that, from a Twitter user's side these two options are almost the same.
+* tweet_features.npz
+* features.npz
 
 All relations are in the format of ```<from>	<to>	<count>```, where *from* is where this relation starts, *to* is whom involved on the other side, *count* is how many times these two person have this relationship in between in the time window we observe. (**note:** all relations are directed --- from A to B and from B to A are treated differently.)
 
@@ -23,11 +25,13 @@ Something to note is that, in order to safely contianing the politicians' names 
 
 ## Additional Labels
 
-Additional labels are added by [Zhicheng Ren](https://github.com/franklinnwren) manually. The additional labels we have are stored under [additional_labels](./additional_labels) folder.
+Additional labels are extracted by reading the [user profile information](./data/simplified_user_info.json)'s **description** part, done by [Zhicheng Ren](https://github.com/franklinnwren) manually.
+
+The additional labels we have are stored under [additional_labels](./additional_labels) folder.
 
 ## Formatted Location
 
-Location information is extracted from the raw [simplified user information](./data/simplified_user_info.json) by [Zhicheng Ren](https://github.com/franklinnwren).
+Locations are extracted from [user profile information](./data/simplified_user_info.json) by [Zhicheng Ren](https://github.com/franklinnwren).
 
 The location information associated with the accounts are self-reported by some of the Twitter users. It is neither mandatory nor fully-reliable. Zhicheng cross-check the self-reported locations with the USA states and city names, wrote an automatic script of extracting their locations. The result is as shown in [formatted_location](./formatted_location).
 
