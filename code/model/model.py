@@ -150,9 +150,9 @@ class LinkPrediction(nn.Module):
         all_labels = [np.concatenate(labels_r) for labels_r in all_labels]
         return all_scores, all_labels
 
-class MultitaskModel(nn.Module):
+class TIMME(nn.Module):
     def __init__(self, num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=None, skip_mode="none", attention_mode="none",trainable_features=None):
-        super(MultitaskModel, self).__init__()
+        super(TIMME, self).__init__()
         self.gcn = GCN_multirelation(num_relation, num_entities, num_adjs, nfeat, nhid, dropout, skip_mode=skip_mode, attention_mode=attention_mode)
         self.trainable_features = trainable_features if trainable_features else None
         # the last model is always node classification, following the R relations samples
@@ -208,9 +208,9 @@ class MultitaskModel(nn.Module):
         all_triplets = (all_from, all_to)
         return all_scores, all_labels, all_triplets
 
-class MultitaskModelConcat(MultitaskModel):
+class TIMMEhierarchical(TIMME):
     def __init__(self, num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=None, skip_mode="none", attention_mode="none", trainable_features=None):
-        super(MultitaskModelConcat, self).__init__(num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=regularization, skip_mode=skip_mode, attention_mode=attention_mode,trainable_features=trainable_features)
+        super(TIMMEhierarchical, self).__init__(num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=regularization, skip_mode=skip_mode, attention_mode=attention_mode,trainable_features=trainable_features)
         self._lambda = ScaledDotProductSelfAttention(nhid, num_entities) 
         self.attention_weight = None
     def forward(self, x, adjs):
@@ -222,9 +222,9 @@ class MultitaskModelConcat(MultitaskModel):
         self.attention_weight = attention_weight.detach().numpy()
         return link_embeddings + [node_embedding]
     
-class SingleLinkPred(MultitaskModel):
+class TIMMEsingle(TIMME):
     def __init__(self, num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=None, skip_mode="none", attention_mode="none", trainable_features=None, relation_id=0):
-        super(SingleLinkPred, self).__init__(num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=regularization, skip_mode=skip_mode, attention_mode=attention_mode,trainable_features=trainable_features)
+        super(TIMMEsingle, self).__init__(num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=regularization, skip_mode=skip_mode, attention_mode=attention_mode,trainable_features=trainable_features)
         self.relation_id = relation_id
 
     def calc_joint_loss(self, embeddings, losses):

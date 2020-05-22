@@ -9,7 +9,7 @@ import argparse
 import os
 
 from utils import multi_relation_load, save_node_pred, save_link_pred
-from model.model import Classification, LinkPrediction, MultitaskModel, MultitaskModelConcat, SingleLinkPred
+from model.model import Classification, LinkPrediction, TIMME, TIMMEhierarchical, TIMMEsingle
 from model.embedding import PartlyLearnableEmbedding, FixedFeature
 from task import ClassificationTask, LinkPred_BatchTask, TIMMEManager
 
@@ -154,7 +154,7 @@ elif args.task == "LinkPrediction":
             attention_mode=args.attention_mode,
             trainable_features=trainable)
 elif args.task == "TIMME_hierarchical":
-    model = MultitaskModelConcat(num_relations,
+    model = TIMMEhierarchical(num_relations,
             num_entities,
             num_adjs,
             feature_dimension,
@@ -167,7 +167,7 @@ elif args.task == "TIMME_hierarchical":
             attention_mode=args.attention_mode,
             trainable_features=trainable)
 elif args.task == "TIMME":
-    model = MultitaskModel(num_relations,
+    model = TIMME(num_relations,
             num_entities,
             num_adjs,
             feature_dimension,
@@ -180,7 +180,7 @@ elif args.task == "TIMME":
             attention_mode=args.attention_mode,
             trainable_features=trainable)
 elif args.task == "TIMME_SingleLink":
-    model = SingleLinkPred(num_relations,
+    model = TIMMEsingle(num_relations,
             num_entities,
             num_adjs,
             feature_dimension,

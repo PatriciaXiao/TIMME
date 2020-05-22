@@ -9,6 +9,17 @@ Please cite the [paper](./TIMME_for_KDD2020_cameraready.pdf) to use the [dataset
 
 ## Environment
 
+Language: Tested on Python 3.6, 3.7 or 3.8. All worked well.
+
+Pre-requisites (other versions might apply as well, these are the developing environment we've used):
+
+| Python | torch | pandas | numpy  | scipy | scikit-learn |
+|:------:| :---: | :----: | :----: | :---: | :----------: |
+| 3.8    | 1.4.0 |  1.0.3 | 1.18.2 | 1.4.1 |  0.23.1      |
+| 3.7    | 1.4.0 | 0.6.3  | 1.17.2 | 1.3.1 |  0.20.2      |
+| 3.6    | 1.3.1 | 0.23.4 | 1.15.4 | 1.1.0 |  0.20.2      |
+
+All other dependencies should be automatically installed once you get these packages installed. Otherwise please follow the instruction to install missing packages, and welcome to give us feedback if we gave the wrong version.
 
 ## Usage
 
