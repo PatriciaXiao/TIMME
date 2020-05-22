@@ -45,7 +45,7 @@ Something to note is that, in order to safely contain the politicians' names and
 
 ## Additional Labels
 
-Additional labels are extracted by reading the [user profile information](./formatted_location/simplified_user_info.json)'s **description** field, done by Zhicheng manually.
+Additional labels are extracted according to the [user profile information](./formatted_location/simplified_user_info.json)'s **description** field, done by Zhicheng, manually fitering out the negative references after automatically select a bunch of potential candidates.
 
 The additional labels we have are stored under [additional_labels](./additional_labels) folder.
 
