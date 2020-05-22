@@ -42,6 +42,9 @@ by Zhicheng Ren.
 
 ## Usage
 
+### Sample Usage
+
+
 ### Hyperparameters
 
 #### The variations of the model
