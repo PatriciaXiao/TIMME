@@ -16,8 +16,22 @@ The components in our datasets:
 * mention_list.csv: the relation of A mention B in her/his tweet (retweeting's automatic @ is excluded).
 * reply_list.csv: the relation of A replying to B's tweet.
 * retweet_list.csv: the relation of A retweet from B. This retweet include retweeting with / without comments. In other places, *retweet with comment* is sometimes referred to as "quote". The reason why we treated them the same is that, from a Twitter user's side these two options are almost the same.
-* tweet_features.npz
-* features.npz
+* tweet_features.npz: the file storing the average GloVe embeddings of the words in each user's tweets (all the tweets in our record). Sample usage:
+      ```python
+      import numpy as np
+      features_file = "tweet_features.npz"
+      loaded = np.load(features_file)
+      print(loaded["tweets_average"][0,:])
+      ```
+* features.npz: the file storing the average GloVe embeddings of the words in each user's account **description** or **status**. Sample usage:
+      ```python
+      import numpy as np
+      features_file = "features.npz"
+      loaded = np.load(features_file)
+      print(loaded['description'][0,:])
+      print(loaded['status'][0,:])
+      ```
+* all_twitter_ids.csv: it is useful only when you load the features, as the features in *tweet_features.npz* or *features.npz* are stored as numpy matrix, and each row corresponds to a user. Those user's twitter ids are as listed here in all_twitter_ids.csv.
 
 All relations are in the format of ```<from>	<to>	<count>```, where *from* is where this relation starts, *to* is whom involved on the other side, *count* is how many times these two person have this relationship in between in the time window we observe. (**note:** all relations are directed --- from A to B and from B to A are treated differently.)
 
