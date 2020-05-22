@@ -54,12 +54,12 @@ by Zhicheng Ren.
 - TIMME-hierarchical
 
 | Model Name (in paper) | Command Line Flag | Task Manager | Model Name |
-|:---------------------:| :-------------------------: | : -----------------: | : ------------------:|
-| N/A                   | Classification              | ClassificationTask   | Classification       |
-| N/A                   | LinkPrediction              | LinkPredictionTask   | LinkPrediction       |
-| TIMME-single          | TIMME_SingleLink            | TIMMEManager         | TIMMEsingle          |
-| TIMME                 | TIMME                       | TIMMEManager         | TIMME                |
-| TIMME-hierarchical    | TIMME_hierarchical          | TIMMEManager         | TIMMEhierarchical    |
+|:---------------------:| :-------------------------: | : -----------------: | : ------------------: |
+| N/A                   | Classification              | ClassificationTask   | Classification        |
+| N/A                   | LinkPrediction              | LinkPredictionTask   | LinkPrediction        |
+| TIMME-single          | TIMME_SingleLink            | TIMMEManager         | TIMMEsingle           |
+| TIMME                 | TIMME                       | TIMMEManager         | TIMME                 |
+| TIMME-hierarchical    | TIMME_hierarchical          | TIMMEManager         | TIMMEhierarchical     |
 
 | Model Name (in paper) | Command Line Flag (in [main](./code/main.py)) | Task Manager (in [task](./code/task.py)) | Model Name (in [model](./code/model/model.py)) |
 |:---------------------:| :-------------------------: | : -----------------: | : ------------------:|
