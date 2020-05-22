@@ -8,10 +8,13 @@ from utils import generate_masked_adjs, debug_mask
 import numpy as np
 
 from sampler import NaiveSampler as Sampler
-# from sampler import MultiprocessSampler as Sampler # not working very well in practice
+# from sampler import MultiprocessSampler as Sampler # not working well with out model in practice --- synchronization problems causing it to be slower
 from lr_scheduler import StepDecay, ESLearningDecay, NoneDecay
 
 class TaskManager(object):
+    """
+    TaskManager: the base class of the task managers, handling the training and evaluation pipeline of our tasks.
+    """
     def __init__(self, model, features_generator, adjs, lr, weight_decay, algorithm="Adam", fastmode=False, lr_scheduler="Step", min_lr=1e-5, epochs=600, n_batches=1):
         self.model = model
         self.features_generator = features_generator

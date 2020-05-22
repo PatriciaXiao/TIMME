@@ -53,11 +53,11 @@ by Zhicheng Ren.
 - TIMME
 - TIMME-hierarchical
 
-| Model Name (in paper) | Task Name (in code) | Model Name (in [code](./code/model/model.py)) |
-|:---------------------:| :-----------------: | :------------------: |
-| N/A                   | Classification      | Classification       |
-| N/A                   | LinkPrediction      | LinkPrediction       | 
-| TIMME-single          | TIMME_SingleLink    | TIMMEsingle          |
-| TIMME                 | TIMME               | TIMME                |
-| TIMME-hierarchical    | TIMME_hierarchical  | TIMMEhierarchical    |
+| Model Name (in paper) | Command Line Flag (in code) | Model Name (in [code](./code/model/model.py)) |
+|:---------------------:| :-------------------------: | :------------------: |
+| N/A                   | Classification              | Classification       |
+| N/A                   | LinkPrediction              | LinkPrediction       | 
+| TIMME-single          | TIMME_SingleLink            | TIMMEsingle          |
+| TIMME                 | TIMME                       | TIMME                |
+| TIMME-hierarchical    | TIMME_hierarchical          | TIMMEhierarchical    |
 

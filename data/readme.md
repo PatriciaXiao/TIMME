@@ -45,7 +45,7 @@ Something to note is that, in order to safely contain the politicians' names and
 
 ## Additional Labels
 
-Additional labels are extracted by reading the [user profile information](./data/simplified_user_info.json)'s **description** field, done by Zhicheng manually.
+Additional labels are extracted by reading the [user profile information](./formatted_location/simplified_user_info.json)'s **description** field, done by Zhicheng manually.
 
 The additional labels we have are stored under [additional_labels](./additional_labels) folder.
 
@@ -53,7 +53,7 @@ For mored details, please visit [TIMME-additional-labels](https://github.com/fra
 
 ## Formatted Location
 
-Locations are extracted from [user profile information](./data/simplified_user_info.json) by [Zhicheng Ren](https://github.com/franklinnwren).
+Locations are extracted from [user profile information](./formatted_location/simplified_user_info.json) by [Zhicheng Ren](https://github.com/franklinnwren).
 
 The location information associated with the accounts are self-reported by some of the Twitter users. It is neither mandatory nor fully-reliable. Zhicheng cross-check the self-reported locations with the USA states and city names, wrote an automatic script of extracting their locations. The result is as shown in [formatted_location](./formatted_location).
 
