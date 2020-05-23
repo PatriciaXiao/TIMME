@@ -2,8 +2,7 @@ import math
 
 class NoneDecay:
     '''
-    in general, it depends; for a base model with no auxiliary labels, decreasing learning rate every 150 epochs is perfect
-    better than exponential decay in performance, but normally worse than that in stability
+    None Decay basic scheduler, constant learning rate.
     '''
     def __init__(self, lr):
         self.init(lr)
@@ -16,8 +15,9 @@ class NoneDecay:
 
 class StepDecay:
     '''
-    in general, it depends; for a base model with no auxiliary labels, decreasing learning rate every 150 epochs is perfect
-    better than exponential decay in performance, but normally worse than that in stability
+    Step Decay: decreasing learning rate every 150 epochs
+    in general, how well it works depends;
+    for our models, normally better than exponential decay in performance, but worse in stability of the performance
     '''
     def __init__(self, lr, interval=100, ratio=0.1, min_lr=1e-5):
         self.interval = interval
@@ -62,10 +62,23 @@ class ESLearningDecay:
     def get_lr(self):
         return self.updated_lr
 
-# check_lr_curve(ESLearningDecay, lr = 0.005, alpha=2)
-# check_lr_curve(ESLearningDecay, lr = 0.005, alpha=2, beta=0.3)
-# check_lr_curve(ESLearningDecay, alpha=2)
+
 def check_lr_curve(Scheduler, lr=0.01, epochs=600, **kwargs):
+    '''
+    The debugger function used to check whether or not the learning rate schedulers work as designed.
+    It conducts checking by drawing a plot.
+    Args:
+        Scheduler: {object}:scheduler, e.g. NoneDecay, ESLearningDecay
+        lr: {float} initial learning rate
+        epochs: {int} plot how many epochs
+        **kwargs: other key word arguments
+    Returns:
+        nothing
+    Sample usage:
+        check_lr_curve(ESLearningDecay, lr = 0.005, alpha=2)
+        check_lr_curve(ESLearningDecay, lr = 0.005, alpha=2, beta=0.3)
+        check_lr_curve(ESLearningDecay, alpha=2)
+    '''
     import matplotlib.pyplot as plt
     lr_scheduler = Scheduler(lr, **kwargs)
     epoch = list(range(epochs))
