@@ -4,6 +4,7 @@ class PartlyLearnableEmbedding(object):
     """
     When some features are missing and we want to make these features trainable
     We need to treat the embedding as containing two parts: one known features, one trainable.
+    mask is used to determine which portion is trainable, and which portion should be fixed.
     """
     def __init__(self, num_embeddings, features, trainable, mask, cuda=False):
         self.num_embeddings = num_embeddings

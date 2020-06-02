@@ -10,6 +10,9 @@ from utils import slicing
 import numpy as np
 
 class GCN_multirelation(nn.Module):
+    """
+    The multi-relational encoder of TIMME
+    """
     def __init__(self, num_relation, num_entities, num_adjs, nfeat, nhid, dropout, skip_mode="none", attention_mode="none"):
         super(GCN_multirelation, self).__init__()
 
