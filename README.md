@@ -94,6 +94,8 @@ will get our model run with the fixed one_hot features. Options include: "tweets
 
 #### The variations of the models
 
+Command line argument ```--task``` or ```-t```.
+
 Sample usage:
 - TIMME-single
     * single classification task: ```python main.py -e 20```

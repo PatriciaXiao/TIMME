@@ -50,14 +50,14 @@ parser.add_argument('-r', '--relations', type=str, default=['retweet_list.csv', 
 parser.add_argument('-t', '--task', type=str, default="Classification", choices=["Classification", "LinkPrediction", "TIMME_SingleLink", "TIMME", "TIMME_hierarchical"],
                     help='The type of task to run with (default: Classification)')
 parser.add_argument('--skip_mode', type=str, default="add", choices=["none", "add", "concat"],
-                    help='Not using skip connection, using skip-connection by adding the layers layer output, or skip-connection by conactenate layers. (default: none)')
+                    help='Not using skip connection, using skip-connection by adding the layers layer output, or skip-connection by conactenate layers. (default: add; but not much difference if we disable it)')
 parser.add_argument('-att','--attention_mode', type=str, default="self", choices=["none", "naive", "self"],
-                    help='Which attention mode to use. (default: none)')
+                    help='Which attention mode to use. None is none; naive is not the real-attention, but trained weight; "self" option is attention (default: self)')
 parser.add_argument('-lrs','--lr_scheduler', type=str, default="none", choices=["Step", "ESL", "none"],
                     help='Which learning rate scheduler to use. (default: Step)')
 parser.add_argument('-f', '--feature', type=str, default="one_hot",
                     choices=["tweets_average", "description", "status", "one_hot", "random"],
-                    help='The feature to use. (default: None, referring to random)')
+                    help='The feature to use. (default: one_hot)')
 parser.add_argument("--regularization_classification", type=float, default=None,
                     help="The regularization weight for node classification. (default: None)")
 parser.add_argument("--regularization", type=float, default=0.01,
