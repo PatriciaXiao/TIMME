@@ -28,6 +28,10 @@ class PartlyLearnableEmbedding(object):
         return self.get_features()
 
 class FixedFeature(object):
+    """
+    The ordinary (dafault) version of feature X
+    Known, fixed, not going to be trained at all
+    """
     def __init__(self, features, cuda=False):
         if cuda:
             self.features = features.cuda(0)
