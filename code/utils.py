@@ -240,6 +240,10 @@ def apply_masks(adjs, masks):
     return [adj - adj * mask for adj,mask in zip(adjs, masks)]
 
 def debug_mask():
+    '''
+    the function used to debug the masks...
+    NOT really needed in actual implementation
+    '''
     n_entities = 5
     rows = list()
     for i in range(n_entities):
@@ -259,6 +263,11 @@ def generate_masked_adjs(mask_info, n_entities, adjs):
     masked_adjs = apply_masks(adjs, all_masks)
     return masked_adjs
 
+##################################################################
+# The data loader that loads the data as required
+#    such that later on we can pass them into the MTL model
+#    (half-way processed)
+##################################################################
 def multi_relation_load(path="../data/PureP", label="dict.csv",
                         files=["friend_list.csv", "retweet_list.csv"],
                         label_key = "twitter_id", label_property = "party", ignored_labels = ["I"],
