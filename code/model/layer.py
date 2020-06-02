@@ -20,9 +20,10 @@ class GraphConvolution(Module):
     :type in_features: int
     :type out_features: int
     :type bias: bool
+    :type attention: string, options "none" / "self" / "naive"
     """
     def __init__(self, num_relation, num_entities, num_adjs, in_features, out_features, bias=True, \
-                attention_mode="none", dropout=0.0):
+                attention_mode="none"):
         super(GraphConvolution, self).__init__()
         self.num_relation = num_relation
         self.num_adjs = num_adjs
