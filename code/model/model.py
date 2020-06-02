@@ -226,6 +226,10 @@ class TIMMEhierarchical(TIMME):
         return link_embeddings + [node_embedding]
     
 class TIMMEsingle(TIMME):
+    """
+    The variation that uses only a single relation's data for training.
+    Useful as baseline.
+    """
     def __init__(self, num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=None, skip_mode="none", attention_mode="none", trainable_features=None, relation_id=0):
         super(TIMMEsingle, self).__init__(num_relation, num_entities, num_adjs, nfeat, nhid, nclass, dropout, relations, regularization=regularization, skip_mode=skip_mode, attention_mode=attention_mode,trainable_features=trainable_features)
         self.relation_id = relation_id
