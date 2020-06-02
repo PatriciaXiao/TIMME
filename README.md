@@ -49,7 +49,8 @@ python main.py -e 20
 
 ### Hyperparameters
 
-For more please refer to command line arguments specified in [main.py](./code/main.py).
+For more options please refer to command line arguments specified in [main.py](./code/main.py).
+There are some other details that aren't listed here, for which we use the default settings set in our code.
 
 #### Number of epochs:
 ```
