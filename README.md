@@ -49,6 +49,16 @@ python main.py -e 20
 
 ### Hyperparameters
 
+For more please refer to command line arguments specified in [main.py](./code/main.py).
+
+#### Number of epochs:
+```
+python main.py -e 20
+```
+means running for *20* epochs.
+
+#### 
+
 #### The variations of the model
 
 - TIMME-single

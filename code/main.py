@@ -49,9 +49,9 @@ parser.add_argument('-r', '--relations', type=str, default=['retweet_list.csv', 
                     help='Relations to use. (default: [\'retweet_list.csv\', \'mention_list.csv\', \'friend_list.csv\', \'reply_list.csv\', \'favorite_list.csv\'])')
 parser.add_argument('-t', '--task', type=str, default="Classification", choices=["Classification", "LinkPrediction", "TIMME_SingleLink", "TIMME", "TIMME_hierarchical"],
                     help='The type of task to run with (default: Classification)')
-parser.add_argument('--skip_mode', type=str, default="none", choices=["none", "add", "concat"],
+parser.add_argument('--skip_mode', type=str, default="add", choices=["none", "add", "concat"],
                     help='Not using skip connection, using skip-connection by adding the layers layer output, or skip-connection by conactenate layers. (default: none)')
-parser.add_argument('-att','--attention_mode', type=str, default="none", choices=["none", "naive", "self"],
+parser.add_argument('-att','--attention_mode', type=str, default="self", choices=["none", "naive", "self"],
                     help='Which attention mode to use. (default: none)')
 parser.add_argument('-lrs','--lr_scheduler', type=str, default="none", choices=["Step", "ESL", "none"],
                     help='Which learning rate scheduler to use. (default: Step)')
