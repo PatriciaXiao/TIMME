@@ -43,7 +43,9 @@ by Zhicheng Ren.
 ## Usage
 
 ### Sample Usage
-
+```shell
+python main.py -e 20
+```
 
 ### Hyperparameters
 
