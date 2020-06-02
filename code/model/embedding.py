@@ -3,7 +3,7 @@ import torch
 class PartlyLearnableEmbedding(object):
     """
     When some features are missing and we want to make these features trainable
-    We need to treat the embedding as containing two parts: one known, one trainable.
+    We need to treat the embedding as containing two parts: one known features, one trainable.
     """
     def __init__(self, num_embeddings, features, trainable, mask, cuda=False):
         self.num_embeddings = num_embeddings
