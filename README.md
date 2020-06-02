@@ -44,7 +44,7 @@ by Zhicheng Ren.
 
 ### Sample Usage
 ```shell
-python main.py -e 20
+python main.py -e 20 --fixed_random_seed
 ```
 
 ### Hyperparameters
@@ -52,19 +52,56 @@ python main.py -e 20
 For more options please refer to command line arguments specified in [main.py](./code/main.py).
 There are some other details that aren't listed here, for which we use the default settings set in our code.
 
-#### Number of epochs:
+#### Number of epochs
+```shell
+python main.py --epochs 20
 ```
+or
+```shell
 python main.py -e 20
 ```
 means running for *20* epochs.
 
-#### 
+#### Random Seed
+```shell
+python main.py -e 20 --fixed_random_seed
+```
+or
+```shell
+python main.py -e 20 -frd
+```
+fix the random seeds.
 
-#### The variations of the model
+#### Dataset
+```shell
+python main.py -e 20 --data P50
+```
+or
+```shell
+python main.py -e 20 -d P50
+```
+will run the dataset **P50**, instead of the default **PureP**. For the dataset options please check the [data](./data) we have.
 
+#### Feature
+```shell
+python main.py -e 20 --feature one_hot
+```
+or
+```shell
+python main.py -e 20 -f one_hot
+```
+will get our model run with the fixed one_hot features. Options include: "tweets_average", "description", "status", "one_hot", "random". Among which, "tweets_average", "description", "status" are the features that are partly-trainable. In practice, we found one_hot works the best in our case. We suspect that it is caused by the quality of other features.
+
+#### The variations of the models
+
+Sample usage:
 - TIMME-single
+    * single classification task: ```python main.py -e 20```
+    * TIMME-single: ```python main.py -e 600 -t TIMME_SingleLink --single_relation 0``` single link-prediction task of single relation 0; relations are labeled 0, 1, 2, 3, 4 in our case.
 - TIMME
+    * TIMME (basic): ```python main.py -e 20 -t TIMME```
 - TIMME-hierarchical
+    * TIMME-hierarchical: ```python main.py -e 20 -t TIMME_hierarchical```
 
 | Model Name (in paper) | Command Line Flag (in [main](./code/main.py)) | Task Manager (in [task](./code/task.py)) | Model Name (in [model](./code/model/model.py)) |
 |:---------------------:| :-------------------------: | :------------------: | :------------------: |

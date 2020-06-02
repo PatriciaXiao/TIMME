@@ -38,7 +38,7 @@ parser.add_argument('--hidden', type=int, default=100,
                     help='Number of hidden units. (default: 100)')
 parser.add_argument('--single_relation', type=int, default=0,
                     help='The single-relation task to be run by single-relation. (default: 0)')
-parser.add_argument('-rd','--fixed_random_seed', default=False, action='store_true',
+parser.add_argument('-frd','--fixed_random_seed', default=False, action='store_true',
                     help='if random seed is fixed, we will use the fixed random seed (default: false)')
 parser.add_argument('--dropout', type=float, default=0.1,
                     help='Dropout rate (default: 0.1).')
