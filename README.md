@@ -2,10 +2,7 @@
 
 This repository contains the code implementation and the data of *TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding*.
 
-Please cite the our paper to use the [dataset](./data/).
-```
-
-```
+Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](./data/).
 
 ## Environment
 
