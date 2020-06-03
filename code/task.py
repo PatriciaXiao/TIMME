@@ -234,6 +234,9 @@ class LinkPred_BatchTask(LinkPredictionTask):
         return {"loss_train": loss_train}
 
 class TIMMEManager(LinkPredictionTask):
+    """
+    Task manager for all the TIMME models.
+    """
     def __init__(self, model, features_generator, adjs, lr, weight_decay, algorithm="Adam", fastmode=False, lr_scheduler="Step", min_lr=1e-5, epochs=600, n_batches=10, n_val_batches=1, n_test_batches=1, negative_rate = 1.5, cuda=False, report_interval=0, max_epochs=100):
         super().__init__(model, features_generator, adjs, lr, weight_decay, algorithm, fastmode, lr_scheduler, min_lr, epochs, n_batches, n_val_batches, n_test_batches, negative_rate, cuda, report_interval, max_epochs)
         self.task_name = "TIMME "
