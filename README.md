@@ -87,7 +87,7 @@ or
 ```shell
 python main.py -e 20 -f one_hot
 ```
-will get our model run with the fixed one_hot features. Options include: "tweets_average", "description", "status", "one_hot", "random". Among which, "tweets_average", "description", "status" are the features that are partly-trainable. In practice, we found one_hot works the best in our case. We suspect that it is caused by the quality of other features.
+will get our model run with the fixed one_hot features. Options include: "tweets_average", "description", "status", "one_hot", "random". Among which, "tweets_average", "description", "status" are the features that are partly-trainable. In practice, we found one_hot works the best in our case. We suspect that it is caused by the quality of our features.
 
 #### The variations of the models
 
