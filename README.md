@@ -102,7 +102,7 @@ Sample usage:
 - TIMME-hierarchical
     * TIMME-hierarchical: ```python main.py -e 20 -t TIMME_hierarchical```
 
-| Model Name (in paper) | Command Line Flag (in [main](./code/main.py)) | Task Manager (in [task](./code/task.py)) | Model Name (in [model](./code/model/model.py)) |
+| Model Name (in [paper](https://arxiv.org/abs/2006.01321)) | Command Line Flag (in [main](./code/main.py)) | Task Manager (in [task](./code/task.py)) | Model Name (in [model](./code/model/model.py)) |
 |:---------------------:| :-------------------------: | :------------------: | :------------------: |
 | N/A                   | Classification              | ClassificationTask   | Classification       |
 | N/A                   | LinkPrediction              | LinkPredictionTask   | LinkPrediction       |
