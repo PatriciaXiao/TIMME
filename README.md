@@ -43,8 +43,6 @@ Implemented and tuned by [Haoyan Xu](https://github.com/uphoupho).
 
 For link prediction, we use the [same NTN component](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107) as used in TIMME.
 
-by Haoyan Xu
-
 ### Geography Visualization
 
 Geography visualization tasks envolve two parts: first, interprete the location from the chaotic Twitter user profiles; second, plot the maps according to our results.
