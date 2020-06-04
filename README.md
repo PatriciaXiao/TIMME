@@ -4,6 +4,30 @@ This repository contains the code implementation and the data of *TIMME: Twitter
 
 Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](./data/).
 
+It hasn't been automatically collected by Google Scholar yet, so for now, you may,
+
+* BibTeX
+```
+@misc{2006.01321,
+Author = {Zhiping Xiao and Weiping Song and Haoyan Xu and Zhicheng Ren and Yizhou Sun},
+Title = {TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
+Year = {2020},
+Eprint = {arXiv:2006.01321},
+}
+```
+* BibLaTeX
+```
+@online{2006.01321,
+Author = {Zhiping Xiao and Weiping Song and Haoyan Xu and Zhicheng Ren and Yizhou Sun},
+Title = {TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
+Year = {2020},
+Eprint = {2006.01321},
+Eprinttype = {arXiv},
+}
+```
+
+It is a citation format provided by [arxiv2bibtex](https://arxiv2bibtex.org/?q=2006.01321&format=bibtex), we will update it later.
+
 ## Environment
 
 Language: Tested on Python 3.6, 3.7 or 3.8. All worked well.
