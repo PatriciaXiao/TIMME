@@ -115,6 +115,8 @@ Sample usage:
 - TIMME-hierarchical
     * TIMME-hierarchical: ```python main.py -e 20 -t TIMME_hierarchical```
 
+The link-prediction component is a simplified version of NTN model, refered to as TIMME-NTN for convenience in our paper, implemented in LinkPrediction model at [here](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107).
+
 | Model Name (in [paper](https://arxiv.org/abs/2006.01321)) | Command Line Flag (in [main](./code/main.py)) | Task Manager (in [task](./code/task.py)) | Model Name (in [model](./code/model/model.py)) |
 |:---------------------:| :-------------------------: | :------------------: | :------------------: |
 | N/A                   | Classification              | ClassificationTask   | Classification       |
