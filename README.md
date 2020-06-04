@@ -4,8 +4,7 @@ This repository contains the code implementation and the data of *TIMME: Twitter
 
 Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](./data/).
 
-It hasn't been automatically collected by Google Scholar yet, so for now, you may try,
-
+It hasn't been automatically collected by Google Scholar yet, so for now, you may try putting the following in your .bib file:
 ```
 @article{2006.01321,
   title={TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
