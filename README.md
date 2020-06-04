@@ -4,29 +4,18 @@ This repository contains the code implementation and the data of *TIMME: Twitter
 
 Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](./data/).
 
-It hasn't been automatically collected by Google Scholar yet, so for now, you may,
+It hasn't been automatically collected by Google Scholar yet, so for now, you may try,
 
-* BibTeX
 ```
-@misc{2006.01321,
-Author = {Zhiping Xiao and Weiping Song and Haoyan Xu and Zhicheng Ren and Yizhou Sun},
-Title = {TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
-Year = {2020},
-Eprint = {arXiv:2006.01321},
-}
-```
-* BibLaTeX
-```
-@online{2006.01321,
-Author = {Zhiping Xiao and Weiping Song and Haoyan Xu and Zhicheng Ren and Yizhou Sun},
-Title = {TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
-Year = {2020},
-Eprint = {2006.01321},
-Eprinttype = {arXiv},
+@article{2006.01321,
+  title={TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
+  author={Zhiping Xiao and Weiping Song and Haoyan Xu and Zhicheng Ren and Yizhou Sun},
+  journal={arXiv preprint arXiv:2006.01321},
+  year={2020}
 }
 ```
 
-It is a citation format provided by [arxiv2bibtex](https://arxiv2bibtex.org/?q=2006.01321&format=bibtex), we will update it later.
+You can replace ```2006.01321``` with any name you prefer, for convenience. We will update the citation format later.
 
 ## Environment
 
