@@ -36,7 +36,12 @@ Baseline models, and the geography visualization code, are given in separate rep
 
 ### Baseline Models
 
-Pending: repository to be released by Haoyan.
+Implemented and tuned by [Haoyan Xu](https://github.com/uphoupho).
+* GCN baseline we use comes from [Kpif](https://github.com/tkipf/pygcn)
+* rGCN baseline we use comes from [Kpif](https://github.com/tkipf/relational-gcn)
+* HAN baseline we use comes from [DGL](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)
+
+For link prediction, we use the [same NTN component](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107) as used in TIMME.
 
 by Haoyan Xu
 
@@ -114,7 +119,7 @@ Sample usage:
 - TIMME-hierarchical
     * TIMME-hierarchical: ```python main.py -e 20 -t TIMME_hierarchical```
 
-The link-prediction component is a simplified version of NTN model, refered to as TIMME-NTN for convenience in our paper, implemented in LinkPrediction model at [here](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107).
+The link-prediction component is a simplified version of NTN model, refered to as **TIMME-NTN** for convenience in our paper, implemented in LinkPrediction model at [here](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107).
 
 | Model Name (in [paper](https://arxiv.org/abs/2006.01321)) | Command Line Flag (in [main](./code/main.py)) | Task Manager (in [task](./code/task.py)) | Model Name (in [model](./code/model/model.py)) |
 |:---------------------:| :-------------------------: | :------------------: | :------------------: |
