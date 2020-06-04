@@ -91,6 +91,7 @@ class LinkPrediction(nn.Module):
     def calc_score(self, embedding, triplets):
         '''
         NTN with diag-weight and k=1
+        Called TIMME-NTN for convenience in our paper
         '''
         # tensor layer with k = 1 and w being diagonal
         s = embedding[triplets[0]]
