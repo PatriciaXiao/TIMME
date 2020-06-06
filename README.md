@@ -6,15 +6,15 @@ Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](.
 
 It hasn't been automatically collected by Google Scholar yet, so for now, you may try putting the following in your .bib file:
 ```
-@article{2006.01321,
+@article{xiao2020timme,
   title={TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
-  author={Zhiping Xiao and Weiping Song and Haoyan Xu and Zhicheng Ren and Yizhou Sun},
+  author={Xiao, Zhiping and Song, Weiping and Xu, Haoyan and Ren, Zhicheng and Sun, Yizhou},
   journal={arXiv preprint arXiv:2006.01321},
   year={2020}
 }
 ```
 
-You can replace ```2006.01321``` with any name you prefer, for convenience. We will update the citation format later.
+We will update the citation format later, after the conference camera-ready version is submitted.
 
 ## Environment
 

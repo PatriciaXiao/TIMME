@@ -7,6 +7,14 @@ Our dataset is collected from Twitter API in 2019, by March.
 These datasets are of the same format, corresponding to the four dataset we've used in our paper.
 
 To use our dataset and/or code, please cite [our paper](https://arxiv.org/abs/2006.01321).
+```
+@article{xiao2020timme,
+  title={TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
+  author={Xiao, Zhiping and Song, Weiping and Xu, Haoyan and Ren, Zhicheng and Sun, Yizhou},
+  journal={arXiv preprint arXiv:2006.01321},
+  year={2020}
+}
+```
 
 The components in our datasets:
 * dict.csv: the ground-truth labels of the politicians.
