@@ -38,7 +38,7 @@ Implemented and tuned by [Haoyan Xu](https://github.com/uphoupho).
 * rGCN baseline we use comes from [Kpif](https://github.com/tkipf/relational-gcn)
 * HAN baseline we use comes from [DGL](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)
 
-For link prediction, we use the [same NTN component](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107) as used in TIMME.
+For link prediction tasks, we use the [same NTN component](https://github.com/PatriciaXiao/TIMME/blob/master/code/model/model.py#L91-L107) as used in TIMME.
 
 ### Geography Visualization
 
