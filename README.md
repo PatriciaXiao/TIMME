@@ -15,7 +15,7 @@ Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](.
 
 ## Environment
 
-Language: Tested on Python 3.6, 3.7 or 3.8. All worked well.
+Language: Tested on Python 3.6, 3.7 and 3.8. All worked well.
 
 Pre-requisites (other versions might apply as well, these are the developing environment we've used):
 
