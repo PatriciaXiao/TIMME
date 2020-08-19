@@ -107,7 +107,7 @@ Command line argument ```--task``` or ```-t```.
 
 Sample usage:
 - TIMME-single
-    * single classification task: ```python main.py -e 20```
+    * single classification task: ```python main.py -e 20``` (it is the default option) or ```python main.py -e 20 -t Classification```
     * TIMME-single: ```python main.py -e 600 -t TIMME_SingleLink --single_relation 0``` single link-prediction task of single relation ```0```; relations are labeled ```0, 1, 2, 3, 4``` in our case.
 - TIMME
     * TIMME (basic): ```python main.py -e 20 -t TIMME```
