@@ -13,8 +13,6 @@ Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](.
 }
 ```
 
-We will update the citation format later, after the conference camera-ready version is submitted.
-
 ## Environment
 
 Language: Tested on Python 3.6, 3.7 or 3.8. All worked well.
