@@ -27,6 +27,17 @@ Pre-requisites (other versions might apply as well, these are the developing env
 
 All other dependencies should be automatically installed once you get these packages installed. Otherwise please follow the instruction to install missing packages, and welcome to give us feedback if we gave the wrong version.
 
+Where there's CUDA available, it should automatically use the GPU #0.
+Sorry we didn't specify the GPU id, if you need to do so, you can do it by replacing:
+```
+model_or_tensor.cuda()
+```
+with
+```
+model_or_tensor.cuda(gpu_id_you_specify)
+```
+Enjoy.
+
 ## Related Reporitories
 
 Baseline models, and the geography visualization code, are given in separate repositories.
