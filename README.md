@@ -4,6 +4,30 @@ This repository contains the code implementation and the data of *TIMME: Twitter
 
 Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](./data/) or the [code](./code/).
 
+Published version available at [ACM Digital Library](https://dl.acm.org/doi/10.1145/3394486.3403275). Shown on their website you can cite us as:
+
+```
+@inproceedings{10.1145/3394486.3403275,
+author = {Xiao, Zhiping and Song, Weiping and Xu, Haoyan and Ren, Zhicheng and Sun, Yizhou},
+title = {TIMME: Twitter Ideology-Detection via Multi-Task Multi-Relational Embedding},
+year = {2020},
+isbn = {9781450379984},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3394486.3403275},
+doi = {10.1145/3394486.3403275},
+abstract = {We aim at solving the problem of predicting people's ideology, or political tendency. We estimate it by using Twitter data, and formalize it as a classification problem. Ideology-detection has long been a challenging yet important problem. Certain groups, such as the policy makers, rely on it to make wise decisions. Back in the old days when labor-intensive survey-studies were needed to collect public opinions, analyzing ordinary citizens' political tendencies was uneasy. The rise of social medias, such as Twitter, has enabled us to gather ordinary citizen's data easily. However, the incompleteness of the labels and the features in social network datasets is tricky, not to mention the enormous data size and the heterogeneousity. The data differ dramatically from many commonly-used datasets, thus brings unique challenges. In our work, first we built our own datasets from Twitter. Next, we proposed TIMME, a multi-task multi-relational embedding model, that works efficiently on sparsely-labeled heterogeneous real-world dataset. It could also handle the incompleteness of the input features. Experimental results showed that TIMME is overall better than the state-of-the-art models for ideology detection on Twitter. Our findings include: links can lead to good classification outcomes without text; conservative voice is under-represented on Twitter; follow is the most important relation to predict ideology; retweet and mention enhance a higher chance of like, etc. Last but not least, TIMME could be extended to other datasets and tasks in theory.},
+booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
+pages = {2258–2268},
+numpages = {11},
+keywords = {social network analysis, ideology detection, graph convolutional networks, heterogeneous information network, multi-task learning},
+location = {Virtual Event, CA, USA},
+series = {KDD '20}
+}
+```
+
+Or, if you prefer citing ArXiv Preprint:
+
 ```
 @article{xiao2020timme,
   title={TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding},
