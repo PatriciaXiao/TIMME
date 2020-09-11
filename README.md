@@ -37,6 +37,9 @@ Or, if you prefer citing ArXiv Preprint:
 }
 ```
 
+Presentation videos are on my [personal website](http://web.cs.ucla.edu/~patricia.xiao/timme.html).
+Note that I was doing live presentation during the conference session, so you might find the pre-recorded video's content slightly different from the live version.
+
 ## Environment
 
 Language: Tested on Python 3.6, 3.7 and 3.8. All worked well.
