@@ -45,7 +45,8 @@ Note that I was doing live presentation during the conference session, so you mi
 ### Figure 9 typo
 
 Figure 9 (one of the ablation studies): instead of being F1, it should be ROC-AUC score shown in the graph.
-It is link-prediction task performance, for link-prediction we only use ROC-AUC and PR-AUC. It was a mistake when generating that figure.
+It is link-prediction task performance, for link-prediction we only use ROC-AUC and PR-AUC.
+
 Sorry for all the inconvenience it brought you.
 
 ### section 4.1 typo
