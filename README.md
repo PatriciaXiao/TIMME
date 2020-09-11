@@ -40,6 +40,18 @@ Or, if you prefer citing ArXiv Preprint:
 Presentation videos are on my [personal website](http://web.cs.ucla.edu/~patricia.xiao/timme.html).
 Note that I was doing live presentation during the conference session, so you might find the pre-recorded video's content slightly different from the live version.
 
+## Typos in the Paper
+
+### Figure 9 typo
+
+Figure 9 (one of the ablation studies): instead of being F1, it should be ROC-AUC score shown in the graph.
+It is link-prediction task performance, for link-prediction we only use ROC-AUC and PR-AUC. It was a mistake when generating that figure.
+Sorry for all the inconvenience it brought you.
+
+### section 4.1 typo
+
+There is an "𝛼 == ", where it should be "=" instead of "==".
+
 ## Environment
 
 Language: Tested on Python 3.6, 3.7 and 3.8. All worked well.
@@ -163,16 +175,5 @@ The link-prediction component is a simplified version of NTN model, refered to a
 | TIMME-hierarchical    | TIMME_hierarchical          | TIMMEManager         | TIMMEhierarchical    |
 
 
-## Typos in the Paper
-
-### Figure 9 typo
-
-Figure 9 (one of the ablation studies): instead of being F1, it should be ROC-AUC score shown in the graph.
-It is link-prediction task performance, for link-prediction we only use ROC-AUC and PR-AUC. It was a mistake when generating that figure.
-Sorry for all the inconvenience it brought you.
-
-### section 4.1 typo
-
-There is an "𝛼 == ", where it should be "=" instead of "==".
 
 
