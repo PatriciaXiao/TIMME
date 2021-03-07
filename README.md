@@ -3,7 +3,7 @@
 ## Data Updates on 7 March 2021: Text provided
 
 We proide the tweet IDs the **P_all** accounts posted on [Box](https://ucla.box.com/s/47i6p7mkaer1f4ec8c0qcyxj1u0g3z8m).
-Besides, considering that it was collected long time ago, we provide the pure text content of those tweets (grouped by account IDs) as a [zipped file](https://ucla.box.com/s/nk27vfb26jfhqrvyfv9e8m3dvbz11sq1) as well. 
+Besides, considering that it was collected long time ago, thus some tweets are no longer available on Twitter, we provide the pure text content (grouped by account IDs) as a [zipped file](https://ucla.box.com/s/nk27vfb26jfhqrvyfv9e8m3dvbz11sq1) as well. 
 
 ## Introduction
 
