@@ -1,5 +1,11 @@
 # TIMME
 
+## Data Updates on 7 March 2021
+
+We proide the tweet IDs the **P_all** accounts posted on [Box](https://ucla.box.com/s/47i6p7mkaer1f4ec8c0qcyxj1u0g3z8m).
+
+## Introduction
+
 This repository contains the code implementation and the data of *TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding*. The paper is [in proceedings of KDD'20, Applied Data Science Track](https://dl.acm.org/doi/10.1145/3394486.3403275).
 
 Please cite [our paper](https://arxiv.org/abs/2006.01321) to use the [dataset](./data/) or the [code](./code/).
