@@ -2,6 +2,10 @@
 
 Our dataset is collected from Twitter API in 2019, by March.
 
+## Recent Updates on 7 March 2021
+
+We proide the tweet IDs the **P_all** accounts posted on [Box](https://ucla.box.com/s/47i6p7mkaer1f4ec8c0qcyxj1u0g3z8m).
+
 ## Relational Dataset (PureP, P50, P_20_50, P_all)
 
 These datasets are of the same format, corresponding to the four dataset we've used in our paper.
